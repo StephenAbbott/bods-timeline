@@ -8,7 +8,7 @@
     "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02529667/persons-with-significant-control"
   },
   "window": {
-    "start": "2016-07-31",
+    "start": "2016-04-06",
     "end": "2026-06-19"
   },
   "root": "02529667",
@@ -46,12 +46,12 @@
         },
         {
           "owner_name": "St James Holdings Limited",
-          "owner_kind": "unresolved",
+          "owner_kind": "entity",
           "owner_number": "06254688",
           "owner_id": "06254688",
           "owner_jurisdiction": null,
           "person": null,
-          "subtitle": "Mike Ashley era",
+          "subtitle": "Mike Ashley era vehicle",
           "start": "2017-04-06",
           "end": "2021-10-07",
           "active": false,
@@ -176,6 +176,38 @@
       "gaps": []
     },
     {
+      "number": "06254688",
+      "name": "ST JAMES HOLDINGS LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06254688/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Mash Holdings Limited",
+          "owner_kind": "entity",
+          "owner_number": "06861426",
+          "owner_id": "06861426",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Mike Ashley's master holding company",
+          "start": "2016-04-06",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Voting: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2016-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
       "number": "12415316",
       "name": "NCUK INVESTMENT LIMITED",
       "level": 2,
@@ -208,6 +240,69 @@
         }
       ],
       "gaps": []
+    },
+    {
+      "number": "06861426",
+      "name": "MASH HOLDINGS LIMITED",
+      "level": 2,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06861426/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Mash Holdings Topco Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "14702546",
+          "owner_id": "14702546",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "",
+          "start": "2023-05-15",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2023-05-15",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Mr Michael James Wallace Ashley",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:mr michael james wallace ashley",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1964-12",
+            "nationality": "British",
+            "residence": "United Kingdom"
+          },
+          "subtitle": "",
+          "start": "2016-04-06",
+          "end": "2023-05-15",
+          "active": false,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2016-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2023-05-15",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
     }
   ],
   "filings": [],
@@ -220,12 +315,12 @@
   ],
   "stats": {
     "chain_depth": 2,
-    "entities": 3,
+    "entities": 5,
     "people": 0,
     "foreign": 1,
     "gaps": 0,
-    "bods_statements": 14,
-    "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+    "bods_statements": 22,
+    "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
   },
   "bods": {
     "statements": [
@@ -268,7 +363,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -309,7 +404,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -368,7 +463,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -409,7 +504,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -451,7 +546,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -483,7 +578,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
         }
       },
@@ -524,7 +619,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
         }
       },
@@ -583,7 +678,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
         }
       },
@@ -624,7 +719,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
         }
       },
@@ -686,7 +781,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
         }
       },
@@ -727,7 +822,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
         }
       },
@@ -789,8 +884,132 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-dbd493e533291a77e970f09b",
+        "recordId": "opencheck-dbd493e533291a77e970f09b",
+        "declarationSubject": "opencheck-dbd493e533291a77e970f09b",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "ST JAMES HOLDINGS LIMITED",
+          "identifiers": [
+            {
+              "id": "06254688",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
+        }
+      },
+      {
+        "statementId": "opencheck-028ed701c5731b629fd1fc5c",
+        "recordId": "opencheck-028ed701c5731b629fd1fc5c",
+        "declarationSubject": "opencheck-028ed701c5731b629fd1fc5c",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Mash Holdings Limited",
+          "identifiers": [
+            {
+              "id": "06861426",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England And Wales",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
+        }
+      },
+      {
+        "statementId": "opencheck-66f9568aa799fa299dcbeb9b",
+        "recordId": "opencheck-876792b2761457698b84ddde",
+        "declarationSubject": "opencheck-dbd493e533291a77e970f09b",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2016-04-06",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-dbd493e533291a77e970f09b",
+          "interestedParty": "opencheck-028ed701c5731b629fd1fc5c",
+          "interests": [
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2016-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
         }
       },
       {
@@ -824,7 +1043,7 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
         }
       },
@@ -883,11 +1102,216 @@
             "officialRegister"
           ],
           "description": "UK Companies House",
-          "retrievedAt": "2026-06-19T10:52:24Z",
+          "retrievedAt": "2026-06-19T14:28:09Z",
           "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
+        }
+      },
+      {
+        "statementId": "opencheck-9020e006d7d8bef887322adc",
+        "recordId": "opencheck-9020e006d7d8bef887322adc",
+        "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "MASH HOLDINGS LIMITED",
+          "identifiers": [
+            {
+              "id": "06861426",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+        }
+      },
+      {
+        "statementId": "opencheck-f82b52554b3b656947bf3273",
+        "recordId": "opencheck-f82b52554b3b656947bf3273",
+        "declarationSubject": "opencheck-f82b52554b3b656947bf3273",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Mash Holdings Topco Limited",
+          "identifiers": [
+            {
+              "id": "14702546",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England And Wales",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+        }
+      },
+      {
+        "statementId": "opencheck-8d60397457a05993bdae9a5c",
+        "recordId": "opencheck-3bfeade8ca82fe6bbb9a3e1f",
+        "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2023-05-15",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-9020e006d7d8bef887322adc",
+          "interestedParty": "opencheck-f82b52554b3b656947bf3273",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2023-05-15"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+        }
+      },
+      {
+        "statementId": "opencheck-ff20dd94542b6143aea46cb6",
+        "recordId": "opencheck-ff20dd94542b6143aea46cb6",
+        "declarationSubject": "opencheck-ff20dd94542b6143aea46cb6",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Mr Michael James Wallace Ashley"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "British"
+            }
+          ],
+          "birthDate": "1964-12"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+        }
+      },
+      {
+        "statementId": "opencheck-2cd50e4393c6a9febf861cd9",
+        "recordId": "opencheck-19dd6c60f901f0d871653394",
+        "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2023-05-15",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-9020e006d7d8bef887322adc",
+          "interestedParty": "opencheck-ff20dd94542b6143aea46cb6",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2023-05-15",
+              "startDate": "2016-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T14:28:09Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
         }
       }
     ],
-    "statement_count": 14
+    "statement_count": 22
   }
 }

@@ -1,0 +1,29 @@
+{
+  "company_number": "06861426",
+  "profile": { "company_number": "06861426", "company_name": "MASH HOLDINGS LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Mash Holdings Topco Limited",
+      "notified_on": "2023-05-15",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent"],
+      "identification": { "registration_number": "14702546", "country_registered": "England And Wales" },
+      "etag": "mash-topco"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Michael James Wallace Ashley",
+      "name_elements": { "title": "Mr", "forename": "Michael", "middle_name": "James Wallace", "surname": "Ashley" },
+      "notified_on": "2016-04-06",
+      "ceased_on": "2023-05-15",
+      "date_of_birth": { "year": 1964, "month": 12 },
+      "nationality": "British",
+      "country_of_residence": "United Kingdom",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent"],
+      "etag": "mash-ashley"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19. Mike Ashley was Mash Holdings' beneficial owner until a May 2023 reorganisation into Mash Holdings Topco."
+}

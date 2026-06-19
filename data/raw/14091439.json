@@ -1,0 +1,31 @@
+{
+  "company_number": "14091439",
+  "profile": { "company_number": "14091439", "company_name": "BLUES INVESTMENT MIDCO LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Jose E. Feliciano",
+      "name_elements": { "title": "Mr", "forename": "Jose", "middle_name": "E.", "surname": "Feliciano" },
+      "notified_on": "2022-05-06",
+      "date_of_birth": { "year": 1973, "month": 5 },
+      "nationality": "American",
+      "country_of_residence": "United States",
+      "natures_of_control": ["significant-influence-or-control"],
+      "etag": "bluesmidco-feliciano"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Behdad Eghbali",
+      "name_elements": { "title": "Mr", "forename": "Behdad", "surname": "Eghbali" },
+      "notified_on": "2022-05-06",
+      "date_of_birth": { "year": 1976, "month": 5 },
+      "nationality": "American",
+      "country_of_residence": "United States",
+      "natures_of_control": ["significant-influence-or-control"],
+      "etag": "bluesmidco-eghbali"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19. A 2-way split: both Clearlake founders hold significant influence or control jointly."
+}

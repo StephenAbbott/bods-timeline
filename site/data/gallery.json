@@ -7,13 +7,13 @@
       "name": "Chelsea FC Holdings Limited",
       "hook": "A sanctions-forced sale, and a holding company that existed for six weeks",
       "stats": {
-        "chain_depth": 2,
-        "entities": 5,
+        "chain_depth": 3,
+        "entities": 7,
         "people": 3,
         "foreign": 0,
         "gaps": 0,
-        "bods_statements": 29,
-        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+        "bods_statements": 35,
+        "comparison": "Reaching the ultimate owner means walking 3 layer(s) up the chain through 7 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
       },
       "window": {
         "start": "2016-04-06",
@@ -43,15 +43,15 @@
       "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium \u2014 and an early gap in the record",
       "stats": {
         "chain_depth": 2,
-        "entities": 3,
+        "entities": 5,
         "people": 0,
         "foreign": 1,
         "gaps": 0,
-        "bods_statements": 14,
-        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+        "bods_statements": 22,
+        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
       },
       "window": {
-        "start": "2016-07-31",
+        "start": "2016-04-06",
         "end": "2026-06-19"
       },
       "ultimate_today": [

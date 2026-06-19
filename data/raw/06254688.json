@@ -1,0 +1,17 @@
+{
+  "company_number": "06254688",
+  "profile": { "company_number": "06254688", "company_name": "ST JAMES HOLDINGS LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Mash Holdings Limited",
+      "notified_on": "2016-04-06",
+      "natures_of_control": ["voting-rights-75-to-100-percent"],
+      "identification": { "registration_number": "06861426", "country_registered": "England And Wales" },
+      "etag": "stjames-mash"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19."
+}

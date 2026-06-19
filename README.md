@@ -110,10 +110,18 @@ python3 build.py
   entities (Newcastle → the Saudi Public Investment Fund), **unresolved** UK
   companies (a parent not yet fetched), and **declared gaps** ("no PSC"). That's
   the point — the timeline visualises exactly where transparency ends.
-- **Next:** resolve the remaining "unresolved" UK parents one more hop (e.g.
-  Newcastle's St James Holdings, the ceased Clearlake holdcos) by fetching their
-  bundles; handle split (<75%) chains as branching paths; add more gallery
-  entries via the news-hook workflow.
+- **Done — deeper resolution.** The previously "unresolved" UK parents were walked
+  one more hop: Newcastle's Ashley-era chain now resolves through St James → Mash
+  Holdings to **Mike Ashley** (a person), and Chelsea's history runs through the
+  Clearlake/Boehly vehicles (Blues Investment Midco, Blueco 22 Investor Holdings).
+- **Done — split (<75%) chains as branching paths.** When a company has multiple
+  simultaneous owners (e.g. Blues Investment Midco is jointly controlled by
+  Eghbali **and** Feliciano; 22 Holdco by three people), the walk enqueues every
+  owner and the date-cursor path branches into parallel sub-chains. Branch points
+  are flagged in the side panel with a "N co-owners · split" tag and each owner's
+  share band. (One UK parent, Mash Holdings Topco, is deliberately left unresolved
+  — a 2023 reorg off the relevant path.)
+- **Next:** add more gallery entries via the news-hook workflow.
 
 To extend a chain, just drop the parent's `data/raw/<number>.json` in (or fetch it
 with `fetch.py`) and re-run `build.py` — the walk picks it up automatically.

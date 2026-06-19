@@ -8,13 +8,13 @@ window.TIMELINE_DATA = {
         "name": "Chelsea FC Holdings Limited",
         "hook": "A sanctions-forced sale, and a holding company that existed for six weeks",
         "stats": {
-          "chain_depth": 2,
-          "entities": 5,
+          "chain_depth": 3,
+          "entities": 7,
           "people": 3,
           "foreign": 0,
           "gaps": 0,
-          "bods_statements": 29,
-          "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+          "bods_statements": 35,
+          "comparison": "Reaching the ultimate owner means walking 3 layer(s) up the chain through 7 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
         },
         "window": {
           "start": "2016-04-06",
@@ -44,15 +44,15 @@ window.TIMELINE_DATA = {
         "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium \u2014 and an early gap in the record",
         "stats": {
           "chain_depth": 2,
-          "entities": 3,
+          "entities": 5,
           "people": 0,
           "foreign": 1,
           "gaps": 0,
-          "bods_statements": 14,
-          "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+          "bods_statements": 22,
+          "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
         },
         "window": {
-          "start": "2016-07-31",
+          "start": "2016-04-06",
           "end": "2026-06-19"
         },
         "ultimate_today": [
@@ -475,12 +475,12 @@ window.TIMELINE_DATA = {
             },
             {
               "owner_name": "Blueco 22 Investor Holdings Limited",
-              "owner_kind": "unresolved",
+              "owner_kind": "entity",
               "owner_number": "14075320",
               "owner_id": "14075320",
               "owner_jurisdiction": null,
               "person": null,
-              "subtitle": "",
+              "subtitle": "Todd Boehly's vehicle",
               "start": "2022-05-12",
               "end": "2022-05-25",
               "active": false,
@@ -503,12 +503,12 @@ window.TIMELINE_DATA = {
             },
             {
               "owner_name": "Blues Investment Midco Limited",
-              "owner_kind": "unresolved",
+              "owner_kind": "entity",
               "owner_number": "14091439",
               "owner_id": "14091439",
               "owner_jurisdiction": null,
               "person": null,
-              "subtitle": "",
+              "subtitle": "Clearlake founders' vehicle (Eghbali & Feliciano)",
               "start": "2022-05-06",
               "end": "2023-06-30",
               "active": false,
@@ -563,6 +563,106 @@ window.TIMELINE_DATA = {
             }
           ],
           "gaps": []
+        },
+        {
+          "number": "14075320",
+          "name": "BLUECO 22 INVESTOR HOLDINGS LIMITED",
+          "level": 3,
+          "kind": "entity",
+          "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14075320/persons-with-significant-control",
+          "lanes": [
+            {
+              "owner_name": "Todd Lawrence Boehly",
+              "owner_kind": "person",
+              "owner_number": null,
+              "owner_id": "person:todd lawrence boehly",
+              "owner_jurisdiction": null,
+              "person": {
+                "dob": "1973-09",
+                "nationality": "American",
+                "residence": "United States"
+              },
+              "subtitle": "",
+              "start": "2022-04-28",
+              "end": null,
+              "active": true,
+              "natures": [
+                "Shares: 75%+",
+                "Voting: 75%+",
+                "Appoints directors"
+              ],
+              "events": [
+                {
+                  "date": "2022-04-28",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                }
+              ]
+            }
+          ],
+          "gaps": []
+        },
+        {
+          "number": "14091439",
+          "name": "BLUES INVESTMENT MIDCO LIMITED",
+          "level": 3,
+          "kind": "entity",
+          "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14091439/persons-with-significant-control",
+          "lanes": [
+            {
+              "owner_name": "Mr Jose E. Feliciano",
+              "owner_kind": "person",
+              "owner_number": null,
+              "owner_id": "person:mr jose e. feliciano",
+              "owner_jurisdiction": null,
+              "person": {
+                "dob": "1973-05",
+                "nationality": "American",
+                "residence": "United States"
+              },
+              "subtitle": "",
+              "start": "2022-05-06",
+              "end": null,
+              "active": true,
+              "natures": [
+                "Significant influence/control"
+              ],
+              "events": [
+                {
+                  "date": "2022-05-06",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                }
+              ]
+            },
+            {
+              "owner_name": "Mr Behdad Eghbali",
+              "owner_kind": "person",
+              "owner_number": null,
+              "owner_id": "person:mr behdad eghbali",
+              "owner_jurisdiction": null,
+              "person": {
+                "dob": "1976-05",
+                "nationality": "American",
+                "residence": "United States"
+              },
+              "subtitle": "",
+              "start": "2022-05-06",
+              "end": null,
+              "active": true,
+              "natures": [
+                "Significant influence/control"
+              ],
+              "events": [
+                {
+                  "date": "2022-05-06",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                }
+              ]
+            }
+          ],
+          "gaps": []
         }
       ],
       "filings": [
@@ -603,13 +703,13 @@ window.TIMELINE_DATA = {
         }
       ],
       "stats": {
-        "chain_depth": 2,
-        "entities": 5,
+        "chain_depth": 3,
+        "entities": 7,
         "people": 3,
         "foreign": 0,
         "gaps": 0,
-        "bods_statements": 29,
-        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+        "bods_statements": 35,
+        "comparison": "Reaching the ultimate owner means walking 3 layer(s) up the chain through 7 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
       },
       "bods": {
         "statements": [
@@ -652,7 +752,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -693,7 +793,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -752,7 +852,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -793,7 +893,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -835,7 +935,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -876,7 +976,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -918,7 +1018,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
             }
           },
@@ -977,7 +1077,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14213798"
             }
           },
@@ -1018,7 +1118,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1077,7 +1177,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1116,7 +1216,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1158,7 +1258,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1197,7 +1297,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1251,7 +1351,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
             }
           },
@@ -1290,7 +1390,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/04784127"
             }
           },
@@ -1331,7 +1431,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/04784127"
             }
           },
@@ -1373,7 +1473,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1412,7 +1512,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1444,7 +1544,7 @@ window.TIMELINE_DATA = {
                     "exclusiveMinimum": 50,
                     "maximum": 75
                   },
-                  "startDate": "2023-06-30"
+                  "startDate": "2022-05-06"
                 },
                 {
                   "type": "votingRights",
@@ -1455,7 +1555,7 @@ window.TIMELINE_DATA = {
                     "exclusiveMinimum": 50,
                     "maximum": 75
                   },
-                  "startDate": "2023-06-30"
+                  "startDate": "2022-05-06"
                 }
               ]
             },
@@ -1464,7 +1564,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1503,7 +1603,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1535,7 +1635,7 @@ window.TIMELINE_DATA = {
                     "exclusiveMinimum": 50,
                     "maximum": 75
                   },
-                  "startDate": "2023-06-30"
+                  "startDate": "2022-05-06"
                 },
                 {
                   "type": "votingRights",
@@ -1546,7 +1646,7 @@ window.TIMELINE_DATA = {
                     "exclusiveMinimum": 50,
                     "maximum": 75
                   },
-                  "startDate": "2023-06-30"
+                  "startDate": "2022-05-06"
                 }
               ]
             },
@@ -1555,7 +1655,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1594,7 +1694,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1631,7 +1731,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1672,7 +1772,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1726,7 +1826,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1767,7 +1867,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1821,7 +1921,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1860,7 +1960,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
             }
           },
@@ -1914,12 +2014,262 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+            }
+          },
+          {
+            "statementId": "opencheck-04d7e8e30e7d840f01ae17c2",
+            "recordId": "opencheck-04d7e8e30e7d840f01ae17c2",
+            "declarationSubject": "opencheck-04d7e8e30e7d840f01ae17c2",
+            "recordType": "person",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "personType": "knownPerson",
+              "names": [
+                {
+                  "type": "legal",
+                  "fullName": "Todd Lawrence Boehly"
+                }
+              ],
+              "nationalities": [
+                {
+                  "name": "American"
+                }
+              ],
+              "birthDate": "1973-09"
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14075320"
+            }
+          },
+          {
+            "statementId": "opencheck-0d8a345b6e61538568a5d388",
+            "recordId": "opencheck-6b56f223abe953220f4fcecb",
+            "declarationSubject": "opencheck-ad3c95f10195a728494029ee",
+            "recordType": "relationship",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2022-04-28",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-ad3c95f10195a728494029ee",
+              "interestedParty": "opencheck-04d7e8e30e7d840f01ae17c2",
+              "interests": [
+                {
+                  "type": "shareholding",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Ownership of shares \u2013 75% or more",
+                  "share": {
+                    "exclusiveMinimum": 75,
+                    "maximum": 100
+                  },
+                  "startDate": "2022-04-28"
+                },
+                {
+                  "type": "votingRights",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Ownership of voting rights - 75% or more",
+                  "share": {
+                    "exclusiveMinimum": 75,
+                    "maximum": 100
+                  },
+                  "startDate": "2022-04-28"
+                },
+                {
+                  "type": "appointmentOfBoard",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Right to appoint or remove directors",
+                  "startDate": "2022-04-28"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14075320"
+            }
+          },
+          {
+            "statementId": "opencheck-a11b2b0470785fa8d14f50a3",
+            "recordId": "opencheck-a11b2b0470785fa8d14f50a3",
+            "declarationSubject": "opencheck-a11b2b0470785fa8d14f50a3",
+            "recordType": "person",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "personType": "knownPerson",
+              "names": [
+                {
+                  "type": "legal",
+                  "fullName": "Mr Jose E. Feliciano"
+                }
+              ],
+              "nationalities": [
+                {
+                  "name": "American"
+                }
+              ],
+              "birthDate": "1973-05"
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14091439"
+            }
+          },
+          {
+            "statementId": "opencheck-444968cbfcc4b79408e3f650",
+            "recordId": "opencheck-03d286896669216c2cb3098b",
+            "declarationSubject": "opencheck-9033e91dc5e05246159848b4",
+            "recordType": "relationship",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2022-05-06",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-9033e91dc5e05246159848b4",
+              "interestedParty": "opencheck-a11b2b0470785fa8d14f50a3",
+              "interests": [
+                {
+                  "type": "otherInfluenceOrControl",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Has significant influence or control",
+                  "startDate": "2022-05-06"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14091439"
+            }
+          },
+          {
+            "statementId": "opencheck-81d6ed3ec11822d85e7177b8",
+            "recordId": "opencheck-81d6ed3ec11822d85e7177b8",
+            "declarationSubject": "opencheck-81d6ed3ec11822d85e7177b8",
+            "recordType": "person",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "personType": "knownPerson",
+              "names": [
+                {
+                  "type": "legal",
+                  "fullName": "Mr Behdad Eghbali"
+                }
+              ],
+              "nationalities": [
+                {
+                  "name": "American"
+                }
+              ],
+              "birthDate": "1976-05"
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14091439"
+            }
+          },
+          {
+            "statementId": "opencheck-3f64e3dda4d36d0459f5558f",
+            "recordId": "opencheck-1ad929db9b258144765dab2e",
+            "declarationSubject": "opencheck-9033e91dc5e05246159848b4",
+            "recordType": "relationship",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2022-05-06",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-9033e91dc5e05246159848b4",
+              "interestedParty": "opencheck-81d6ed3ec11822d85e7177b8",
+              "interests": [
+                {
+                  "type": "otherInfluenceOrControl",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Has significant influence or control",
+                  "startDate": "2022-05-06"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/14091439"
             }
           }
         ],
-        "statement_count": 29
+        "statement_count": 35
       }
     },
     "02529667": {
@@ -1932,7 +2282,7 @@ window.TIMELINE_DATA = {
         "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02529667/persons-with-significant-control"
       },
       "window": {
-        "start": "2016-07-31",
+        "start": "2016-04-06",
         "end": "2026-06-19"
       },
       "root": "02529667",
@@ -1970,12 +2320,12 @@ window.TIMELINE_DATA = {
             },
             {
               "owner_name": "St James Holdings Limited",
-              "owner_kind": "unresolved",
+              "owner_kind": "entity",
               "owner_number": "06254688",
               "owner_id": "06254688",
               "owner_jurisdiction": null,
               "person": null,
-              "subtitle": "Mike Ashley era",
+              "subtitle": "Mike Ashley era vehicle",
               "start": "2017-04-06",
               "end": "2021-10-07",
               "active": false,
@@ -2100,6 +2450,38 @@ window.TIMELINE_DATA = {
           "gaps": []
         },
         {
+          "number": "06254688",
+          "name": "ST JAMES HOLDINGS LIMITED",
+          "level": 1,
+          "kind": "entity",
+          "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06254688/persons-with-significant-control",
+          "lanes": [
+            {
+              "owner_name": "Mash Holdings Limited",
+              "owner_kind": "entity",
+              "owner_number": "06861426",
+              "owner_id": "06861426",
+              "owner_jurisdiction": null,
+              "person": null,
+              "subtitle": "Mike Ashley's master holding company",
+              "start": "2016-04-06",
+              "end": null,
+              "active": true,
+              "natures": [
+                "Voting: 75%+"
+              ],
+              "events": [
+                {
+                  "date": "2016-04-06",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                }
+              ]
+            }
+          ],
+          "gaps": []
+        },
+        {
           "number": "12415316",
           "name": "NCUK INVESTMENT LIMITED",
           "level": 2,
@@ -2132,6 +2514,69 @@ window.TIMELINE_DATA = {
             }
           ],
           "gaps": []
+        },
+        {
+          "number": "06861426",
+          "name": "MASH HOLDINGS LIMITED",
+          "level": 2,
+          "kind": "entity",
+          "ch_url": "https://find-and-update.company-information.service.gov.uk/company/06861426/persons-with-significant-control",
+          "lanes": [
+            {
+              "owner_name": "Mash Holdings Topco Limited",
+              "owner_kind": "unresolved",
+              "owner_number": "14702546",
+              "owner_id": "14702546",
+              "owner_jurisdiction": null,
+              "person": null,
+              "subtitle": "",
+              "start": "2023-05-15",
+              "end": null,
+              "active": true,
+              "natures": [
+                "Shares: 75%+"
+              ],
+              "events": [
+                {
+                  "date": "2023-05-15",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                }
+              ]
+            },
+            {
+              "owner_name": "Mr Michael James Wallace Ashley",
+              "owner_kind": "person",
+              "owner_number": null,
+              "owner_id": "person:mr michael james wallace ashley",
+              "owner_jurisdiction": null,
+              "person": {
+                "dob": "1964-12",
+                "nationality": "British",
+                "residence": "United Kingdom"
+              },
+              "subtitle": "",
+              "start": "2016-04-06",
+              "end": "2023-05-15",
+              "active": false,
+              "natures": [
+                "Shares: 75%+"
+              ],
+              "events": [
+                {
+                  "date": "2016-04-06",
+                  "type": "notified",
+                  "label": "Notified as PSC"
+                },
+                {
+                  "date": "2023-05-15",
+                  "type": "ceased",
+                  "label": "Ceased to be a PSC"
+                }
+              ]
+            }
+          ],
+          "gaps": []
         }
       ],
       "filings": [],
@@ -2144,12 +2589,12 @@ window.TIMELINE_DATA = {
       ],
       "stats": {
         "chain_depth": 2,
-        "entities": 3,
+        "entities": 5,
         "people": 0,
         "foreign": 1,
         "gaps": 0,
-        "bods_statements": 14,
-        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+        "bods_statements": 22,
+        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
       },
       "bods": {
         "statements": [
@@ -2192,7 +2637,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2233,7 +2678,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2292,7 +2737,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2333,7 +2778,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2375,7 +2820,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2407,7 +2852,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
             }
           },
@@ -2448,7 +2893,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
             }
           },
@@ -2507,7 +2952,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
             }
           },
@@ -2548,7 +2993,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
             }
           },
@@ -2610,7 +3055,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
             }
           },
@@ -2651,7 +3096,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
             }
           },
@@ -2713,8 +3158,132 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+            }
+          },
+          {
+            "statementId": "opencheck-dbd493e533291a77e970f09b",
+            "recordId": "opencheck-dbd493e533291a77e970f09b",
+            "declarationSubject": "opencheck-dbd493e533291a77e970f09b",
+            "recordType": "entity",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "entityType": {
+                "type": "registeredEntity",
+                "details": "Private limited company"
+              },
+              "name": "ST JAMES HOLDINGS LIMITED",
+              "identifiers": [
+                {
+                  "id": "06254688",
+                  "scheme": "GB-COH",
+                  "schemeName": "Companies House"
+                }
+              ],
+              "jurisdiction": {
+                "name": "United Kingdom",
+                "code": "GB"
+              }
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
+            }
+          },
+          {
+            "statementId": "opencheck-028ed701c5731b629fd1fc5c",
+            "recordId": "opencheck-028ed701c5731b629fd1fc5c",
+            "declarationSubject": "opencheck-028ed701c5731b629fd1fc5c",
+            "recordType": "entity",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "entityType": {
+                "type": "registeredEntity"
+              },
+              "name": "Mash Holdings Limited",
+              "identifiers": [
+                {
+                  "id": "06861426",
+                  "scheme": "GB-COH",
+                  "schemeName": "UK Companies House"
+                }
+              ],
+              "jurisdiction": {
+                "name": "England And Wales",
+                "code": "GB"
+              }
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
+            }
+          },
+          {
+            "statementId": "opencheck-66f9568aa799fa299dcbeb9b",
+            "recordId": "opencheck-876792b2761457698b84ddde",
+            "declarationSubject": "opencheck-dbd493e533291a77e970f09b",
+            "recordType": "relationship",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2016-04-06",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-dbd493e533291a77e970f09b",
+              "interestedParty": "opencheck-028ed701c5731b629fd1fc5c",
+              "interests": [
+                {
+                  "type": "votingRights",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": false,
+                  "details": "Ownership of voting rights - 75% or more",
+                  "share": {
+                    "exclusiveMinimum": 75,
+                    "maximum": 100
+                  },
+                  "startDate": "2016-04-06"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06254688"
             }
           },
           {
@@ -2748,7 +3317,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
             }
           },
@@ -2807,12 +3376,217 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
+            }
+          },
+          {
+            "statementId": "opencheck-9020e006d7d8bef887322adc",
+            "recordId": "opencheck-9020e006d7d8bef887322adc",
+            "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+            "recordType": "entity",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "entityType": {
+                "type": "registeredEntity",
+                "details": "Private limited company"
+              },
+              "name": "MASH HOLDINGS LIMITED",
+              "identifiers": [
+                {
+                  "id": "06861426",
+                  "scheme": "GB-COH",
+                  "schemeName": "Companies House"
+                }
+              ],
+              "jurisdiction": {
+                "name": "United Kingdom",
+                "code": "GB"
+              }
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+            }
+          },
+          {
+            "statementId": "opencheck-f82b52554b3b656947bf3273",
+            "recordId": "opencheck-f82b52554b3b656947bf3273",
+            "declarationSubject": "opencheck-f82b52554b3b656947bf3273",
+            "recordType": "entity",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "entityType": {
+                "type": "registeredEntity"
+              },
+              "name": "Mash Holdings Topco Limited",
+              "identifiers": [
+                {
+                  "id": "14702546",
+                  "scheme": "GB-COH",
+                  "schemeName": "UK Companies House"
+                }
+              ],
+              "jurisdiction": {
+                "name": "England And Wales",
+                "code": "GB"
+              }
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+            }
+          },
+          {
+            "statementId": "opencheck-8d60397457a05993bdae9a5c",
+            "recordId": "opencheck-3bfeade8ca82fe6bbb9a3e1f",
+            "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+            "recordType": "relationship",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2023-05-15",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-9020e006d7d8bef887322adc",
+              "interestedParty": "opencheck-f82b52554b3b656947bf3273",
+              "interests": [
+                {
+                  "type": "shareholding",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": false,
+                  "details": "Ownership of shares \u2013 75% or more",
+                  "share": {
+                    "exclusiveMinimum": 75,
+                    "maximum": 100
+                  },
+                  "startDate": "2023-05-15"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+            }
+          },
+          {
+            "statementId": "opencheck-ff20dd94542b6143aea46cb6",
+            "recordId": "opencheck-ff20dd94542b6143aea46cb6",
+            "declarationSubject": "opencheck-ff20dd94542b6143aea46cb6",
+            "recordType": "person",
+            "recordStatus": "new",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2026-06-19",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "personType": "knownPerson",
+              "names": [
+                {
+                  "type": "legal",
+                  "fullName": "Mr Michael James Wallace Ashley"
+                }
+              ],
+              "nationalities": [
+                {
+                  "name": "British"
+                }
+              ],
+              "birthDate": "1964-12"
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
+            }
+          },
+          {
+            "statementId": "opencheck-2cd50e4393c6a9febf861cd9",
+            "recordId": "opencheck-19dd6c60f901f0d871653394",
+            "declarationSubject": "opencheck-9020e006d7d8bef887322adc",
+            "recordType": "relationship",
+            "recordStatus": "closed",
+            "statementDate": "2026-06-19",
+            "publicationDetails": {
+              "bodsVersion": "0.4",
+              "publicationDate": "2023-05-15",
+              "publisher": {
+                "name": "OpenCheck"
+              }
+            },
+            "recordDetails": {
+              "isComponent": false,
+              "subject": "opencheck-9020e006d7d8bef887322adc",
+              "interestedParty": "opencheck-ff20dd94542b6143aea46cb6",
+              "interests": [
+                {
+                  "type": "shareholding",
+                  "directOrIndirect": "direct",
+                  "beneficialOwnershipOrControl": true,
+                  "details": "Ownership of shares \u2013 75% or more",
+                  "share": {
+                    "exclusiveMinimum": 75,
+                    "maximum": 100
+                  },
+                  "endDate": "2023-05-15",
+                  "startDate": "2016-04-06"
+                }
+              ]
+            },
+            "source": {
+              "type": [
+                "officialRegister"
+              ],
+              "description": "UK Companies House",
+              "retrievedAt": "2026-06-19T14:28:09Z",
+              "url": "https://find-and-update.company-information.service.gov.uk/company/06861426"
             }
           }
         ],
-        "statement_count": 14
+        "statement_count": 22
       }
     },
     "00036624": {
@@ -2993,7 +3767,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
             }
           },
@@ -3034,7 +3808,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
             }
           },
@@ -3093,7 +3867,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
             }
           },
@@ -3132,7 +3906,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
             }
           },
@@ -3186,7 +3960,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
             }
           },
@@ -3228,7 +4002,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
             }
           },
@@ -3267,7 +4041,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
             }
           },
@@ -3326,7 +4100,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
             }
           }
@@ -3426,7 +4200,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/05819262"
             }
           },
@@ -3458,7 +4232,7 @@ window.TIMELINE_DATA = {
                 "officialRegister"
               ],
               "description": "UK Companies House",
-              "retrievedAt": "2026-06-19T10:52:24Z",
+              "retrievedAt": "2026-06-19T14:28:09Z",
               "url": "https://find-and-update.company-information.service.gov.uk/company/05819262"
             }
           }

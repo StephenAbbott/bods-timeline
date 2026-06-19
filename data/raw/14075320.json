@@ -1,0 +1,20 @@
+{
+  "company_number": "14075320",
+  "profile": { "company_number": "14075320", "company_name": "BLUECO 22 INVESTOR HOLDINGS LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Todd Lawrence Boehly",
+      "name_elements": { "forename": "Todd", "middle_name": "Lawrence", "surname": "Boehly" },
+      "notified_on": "2022-04-28",
+      "date_of_birth": { "year": 1973, "month": 9 },
+      "nationality": "American",
+      "country_of_residence": "United States",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "etag": "investorholdings-boehly"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19."
+}

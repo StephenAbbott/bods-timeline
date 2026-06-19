@@ -11,7 +11,9 @@
         "04784127": "Roman Abramovich's holding company",
         "13949552": "Boehly / Clearlake acquisition vehicle",
         "14213798": "Boehly / Clearlake Capital structure",
-        "14075518": "Clearlake & Boehly holding company"
+        "14075518": "Clearlake & Boehly holding company",
+        "14091439": "Clearlake founders' vehicle (Eghbali & Feliciano)",
+        "14075320": "Todd Boehly's vehicle"
       }
     },
     {
@@ -20,7 +22,8 @@
       "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium — and an early gap in the record",
       "blurb": "When the PSC register began, Newcastle United filed a statement that it believed there was no registrable person — then withdrew it the same day. Mike Ashley's St James Holdings was recorded from 2017 until the October 2021 takeover by PZ Newco, the vehicle for the Saudi Public Investment Fund–led consortium.",
       "annotations": {
-        "06254688": "Mike Ashley era",
+        "06254688": "Mike Ashley era vehicle",
+        "06861426": "Mike Ashley's master holding company",
         "12388231": "Saudi PIF–led consortium",
         "12415316": "PIF's UK investment vehicle"
       }
