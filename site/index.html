@@ -110,11 +110,11 @@
   .tick:hover{background:var(--now)}
 
   .cursor{position:absolute;top:0;bottom:0;width:0;border-left:2px solid var(--ink);z-index:5;cursor:ew-resize}
-  .cursor .knob{position:absolute;top:-1px;left:-7px;width:12px;height:12px;border-radius:50%;background:var(--ink)}
-  .cursor .flag{position:absolute;top:-22px;left:0;transform:translateX(-50%);background:var(--ink);color:#fff;
+  .cursor .knob{position:absolute;top:0;left:-7px;width:12px;height:12px;border-radius:50%;background:var(--ink)}
+  .cursor .flag{position:absolute;top:3px;left:0;transform:translateX(-50%);background:var(--ink);color:#fff;z-index:6;
     font-size:10.5px;padding:1px 6px;border-radius:4px;white-space:nowrap;font-family:var(--font-mono)}
 
-  .side{border:1px solid var(--line);border-radius:var(--radius);padding:14px;background:var(--panel-2);position:sticky;top:14px;box-shadow:var(--shadow-card)}
+  .side{border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;background:var(--panel-2);box-shadow:var(--shadow-card);margin-top:16px}
   .side h3{margin:0 0 3px;font-size:14px;font-weight:700}
   .side .date{font-size:12px;color:var(--muted);margin-bottom:10px;font-family:var(--font-mono)}
   .side .hint{font-size:11.5px;color:var(--muted);margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
@@ -135,11 +135,33 @@
   .legend{display:flex;gap:14px;flex-wrap:wrap;margin:12px 2px 0;font-size:12px;color:var(--muted)}
   .legend span{display:inline-flex;align-items:center;gap:6px}
   .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .drag-hint{display:flex;gap:8px;align-items:flex-start;background:rgba(61,48,212,.06);border:1px solid var(--line);
+    border-radius:8px;padding:9px 12px;font-size:13px;color:var(--ink);margin:0 0 12px}
+  .drag-hint span{color:var(--accent);font-weight:700}
+  .explore-btn{margin-top:5px;font-size:11px;padding:2px 9px;border:1px solid var(--line);background:#fff;
+    border-radius:6px;color:var(--accent);cursor:pointer;font-family:var(--font-body);white-space:nowrap}
+  .explore-btn:hover{border-color:var(--accent)}
+  .explore-btn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .hide-btn{margin-left:8px;font-size:10px;border:0;background:none;color:var(--muted);cursor:pointer;text-decoration:underline;font-family:var(--font-body)}
+  .expansion{margin-top:16px}
+  .exp-head{font-size:12px;font-weight:700;color:var(--accent);margin:0 0 6px;font-family:var(--font-body)}
+  .synccursor{position:absolute;top:0;bottom:0;width:0;border-left:1px dashed var(--ink);opacity:.35;pointer-events:none;z-index:4}
   pre.bods{background:var(--panel-2);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);
     padding:16px;overflow:auto;max-height:600px;font:12px/1.55 var(--font-mono)}
   .btn{display:inline-block;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer;margin-bottom:10px}
   footer{margin-top:30px;color:var(--muted);font-size:12px;max-width:860px}
-  @media(max-width:880px){.layout{flex-direction:column}.sidecol{width:100%}.side{position:static}}
+  @media(max-width:640px){
+    .wrap{padding:18px 12px 60px}
+    .labels{width:118px}
+    .l-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .l-sub,.l-type{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .glabel a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:78px;display:inline-block;vertical-align:bottom}
+    .natures{display:none}
+    .explore-btn{font-size:10px;padding:2px 6px}
+    .cursor .knob{width:18px;height:18px;left:-9px;top:-3px}
+    .gridlabel{font-size:9px}
+    .gallery{grid-template-columns:1fr}
+  }
 </style>
 </head>
 <body>
@@ -160,6 +182,8 @@
 const D = window.TIMELINE_DATA;
 const NOW = new Date(D.built + "T00:00:00");
 let current = null, mode = "timeline";
+let expanded = new Set();   // entity numbers whose own timeline is revealed
+let cursorFrac = 1;         // date-cursor position (0..1), preserved across re-renders
 
 function pd(s){ if(!s) return null; const p=s.split("-").map(Number); return new Date(p[0],(p[1]||1)-1,p[2]||1); }
 function fmt(d){ return d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}); }
@@ -183,7 +207,7 @@ function renderGallery(){
       <div class="hook">${c.hook}</div>
       <div class="ult"><b>Ultimate owner today:</b><br>${ult||"—"}<br>
         <span style="color:var(--muted)">chain depth ${c.stats.chain_depth} · ${c.stats.entities} entit${c.stats.entities==1?"y":"ies"}</span></div>`;
-    el.onclick=()=>{current=c.number;mode="timeline";render();window.scrollTo({top:0,behavior:"smooth"});};
+    el.onclick=()=>{current=c.number;mode="timeline";expanded=new Set();cursorFrac=1;render();window.scrollTo({top:0,behavior:"smooth"});};
     g.appendChild(el);
   });
 }
@@ -208,102 +232,116 @@ function render(){
   if(mode==="timeline") renderTimeline(t); else renderBods(t);
 }
 
-/* ---------- timeline ---------- */
-function renderTimeline(t){
-  const rows=[];
-  t.entities.forEach(e=>{
-    rows.push({type:"group",e});
-    e.lanes.forEach(l=>rows.push({type:"lane",e,l}));
-    e.gaps.forEach(g=>rows.push({type:"gap",e,g}));
-  });
-
-  let labels="",tracks="";
-  rows.forEach(r=>{
-    if(r.type==="group"){
-      const indent=r.e.level*14;
-      labels+=`<div class="grow"><div class="glabel ${r.e.kind==='root'?'root':''}" style="padding-left:${indent}px">
-        <span class="lv">${r.e.kind==='root'?'CO':'L'+r.e.level}</span>
-        <a href="${r.e.ch_url}" target="_blank" rel="noopener" title="${r.e.name} on Companies House ↗">${r.e.name}</a></div></div>`;
-      tracks+=`<div class="grow"></div>`;
-    } else if(r.type==="lane"){
-      const l=r.l;
-      labels+=`<div class="lcell" style="height:58px">
-        <div class="l-name">${l.owner_name}</div>
-        ${l.subtitle?`<div class="l-sub">${l.subtitle}</div>`:""}
-        <div class="l-type">${l.owner_kind}${l.person&&l.person.residence?` · res. ${l.person.residence}`:""}${l.owner_jurisdiction?` · ${l.owner_jurisdiction}`:""}</div></div>`;
-      const start=pd(l.start), end=l.end?pd(l.end):NOW;
-      const left=SCALE.x(start), w=Math.max(SCALE.x(end)-left,.5);
-      const natures=(l.natures||[]).map(n=>`<span class="pill ${pillClass(n)}">${n}</span>`).join("");
-      let inner=`<div class="bar ${l.owner_kind} ${l.active?'':'ceased'}" style="left:${left}%;width:${w}%"
-          title="${l.owner_name}: ${l.start} → ${l.end||'present'}">${l.active?'<span class="ongoing">▸</span>':''}</div>
-        <div class="natures" style="left:${left}%">${natures}</div>`;
-      if(r.e.kind==="root"){
-        (t.filings||[]).forEach(f=>{ if(f.description&&f.description.includes(l.owner_name)){
-          const fx=SCALE.x(pd(f.date));
-          inner+=`<a class="tick" style="left:${fx}%" target="_blank" rel="noopener" href="${f.doc_url||'#'}"
-            title="${f.type} · ${f.date}: ${f.description} (view filing ↗)"></a>`; }});
-      }
-      tracks+=`<div class="tcell" style="height:58px">${inner}</div>`;
-    } else {
-      const g=r.g;
-      labels+=`<div class="lcell" style="height:42px"><div class="l-name" style="color:var(--gap)">Register statement</div>
-        <div class="l-type">declared gap</div></div>`;
-      const start=pd(g.start), left=SCALE.x(start);
-      let inner;
-      if(g.withdrawn){
-        inner=`<div class="gap-marker" style="left:${left}%" title="${g.label} — filed &amp; withdrawn same day (${g.start})"></div>
-          <div class="gapbar" style="left:calc(${left}% + 10px);max-width:230px">${g.label} — filed &amp; withdrawn same day</div>`;
-      } else {
-        const end=g.end?pd(g.end):NOW, w=Math.max(SCALE.x(end)-left,.5);
-        inner=`<div class="gapbar" style="left:${left}%;width:${w}%" title="${g.label}">${g.label}${g.active?' — still standing':''}</div>`;
-      }
-      tracks+=`<div class="tcell" style="height:42px">${inner}</div>`;
-    }
-  });
-
-  // grid
+/* ---------- timeline (full-width, progressive disclosure) ---------- */
+function gridHtml(t){
   const startY=pd(t.window.start).getFullYear(), endY=NOW.getFullYear();
-  let grid="";
+  let g="";
   for(let y=startY;y<=endY;y++){ const gx=SCALE.x(new Date(y,0,1)); if(gx<0||gx>100)continue;
-    grid+=`<div class="gridline" style="left:${gx}%"></div><div class="gridlabel" style="left:${gx}%">${y}</div>`; }
+    g+=`<div class="gridline" style="left:${gx}%"></div><div class="gridlabel" style="left:${gx}%">${y}</div>`; }
   const rx=SCALE.x(new Date(NOW.getFullYear()-5,NOW.getMonth(),NOW.getDate()));
-  if(rx>0&&rx<100) grid+=`<div class="retain-line" style="left:${rx}%"></div><div class="retain-label" style="left:${rx}%">◂ FATF 5-yr horizon</div>`;
-  grid+=`<div class="now-line" style="left:100%"></div>`;
+  if(rx>0&&rx<100) g+=`<div class="retain-line" style="left:${rx}%"></div><div class="retain-label" style="left:${rx}%">◂ FATF 5-yr horizon</div>`;
+  g+=`<div class="now-line" style="left:100%"></div>`;
+  return `<div class="grid">${g}</div>`;
+}
 
-  document.getElementById("pane").innerHTML=`
-    <div class="layout">
-      <div class="chartcol">
-        <div class="chart">
-          <div class="labels">${labels}</div>
-          <div class="plot" id="plot"><div class="grid">${grid}</div><div id="tracks">${tracks}</div>
-            <div class="cursor" id="cursor"><div class="knob"></div><div class="flag" id="cflag"></div></div></div>
-        </div>
-        <div class="legend">
-          <span><i class="sw" style="background:var(--entity)"></i>UK company (walk up)</span>
-          <span><i class="sw" style="background:var(--person)"></i>person</span>
-          <span><i class="sw" style="background:var(--foreign)"></i>foreign entity</span>
-          <span><i class="sw" style="background:var(--unresolved)"></i>unresolved UK co.</span>
-          <span><i class="sw" style="background:var(--gap-bg);border:1px solid #f0c98a"></i>register gap</span>
-          <span><i class="sw" style="background:#11161c;transform:rotate(45deg)"></i>PSC filing</span>
-        </div>
-      </div>
-      <div class="sidecol"><div class="side" id="side"></div></div>
+function renderEntityChart(t,e,isMain){
+  let labels="",tracks="";
+  labels+=`<div class="grow"><div class="glabel ${e.kind==='root'?'root':''}">
+      <span class="lv">${e.kind==='root'?'CO':'L'+e.level}</span>
+      <a href="${e.ch_url}" target="_blank" rel="noopener" title="${e.name} on Companies House ↗">${e.name}</a>
+      ${e.kind!=='root'?`<button class="hide-btn" data-explore="${e.number}">hide ✕</button>`:''}</div></div>`;
+  tracks+=`<div class="grow"></div>`;
+  e.lanes.forEach(l=>{
+    const resolvable = l.owner_kind==="entity" && t.entities.some(x=>x.number===l.owner_number);
+    const isExp = resolvable && expanded.has(l.owner_number);
+    const btn = resolvable?`<button class="explore-btn ${isExp?'on':''}" data-explore="${l.owner_number}">${isExp?'Hide ▴':'Explore ownership ▾'}</button>`:"";
+    const h = btn?74:58;
+    labels+=`<div class="lcell" style="height:${h}px">
+      <div class="l-name" title="${l.owner_name}">${l.owner_name}</div>
+      ${l.subtitle?`<div class="l-sub">${l.subtitle}</div>`:""}
+      <div class="l-type">${l.owner_kind}${l.person&&l.person.residence?` · res. ${l.person.residence}`:""}${l.owner_jurisdiction?` · ${l.owner_jurisdiction}`:""}</div>
+      ${btn}</div>`;
+    const start=pd(l.start), end=l.end?pd(l.end):NOW;
+    const left=SCALE.x(start), w=Math.max(SCALE.x(end)-left,.5);
+    const natures=(l.natures||[]).map(n=>`<span class="pill ${pillClass(n)}">${n}</span>`).join("");
+    let inner=`<div class="bar ${l.owner_kind} ${l.active?'':'ceased'}" style="left:${left}%;width:${w}%"
+        title="${l.owner_name}: ${l.start} → ${l.end||'present'}">${l.active?'<span class="ongoing">▸</span>':''}</div>
+      <div class="natures" style="left:${left}%">${natures}</div>`;
+    if(e.kind==="root"){
+      (t.filings||[]).forEach(f=>{ if(f.description&&f.description.includes(l.owner_name)){
+        const fx=SCALE.x(pd(f.date));
+        inner+=`<a class="tick" style="left:${fx}%" target="_blank" rel="noopener" href="${f.doc_url||'#'}"
+          title="${f.type} · ${f.date}: ${f.description} (view filing ↗)"></a>`; }});
+    }
+    tracks+=`<div class="tcell" style="height:${h}px">${inner}</div>`;
+  });
+  e.gaps.forEach(g=>{
+    labels+=`<div class="lcell" style="height:42px"><div class="l-name" style="color:var(--gap)">Register statement</div>
+      <div class="l-type">declared gap</div></div>`;
+    const start=pd(g.start), left=SCALE.x(start);
+    let inner;
+    if(g.withdrawn){
+      inner=`<div class="gap-marker" style="left:${left}%" title="${g.label} — filed &amp; withdrawn same day (${g.start})"></div>
+        <div class="gapbar" style="left:calc(${left}% + 10px);max-width:230px">${g.label} — filed &amp; withdrawn same day</div>`;
+    } else {
+      const end=g.end?pd(g.end):NOW, w=Math.max(SCALE.x(end)-left,.5);
+      inner=`<div class="gapbar" style="left:${left}%;width:${w}%" title="${g.label}">${g.label}${g.active?' — still standing':''}</div>`;
+    }
+    tracks+=`<div class="tcell" style="height:42px">${inner}</div>`;
+  });
+  const cur = isMain
+    ? `<div class="cursor" id="cursor"><div class="knob"></div><div class="flag" id="cflag"></div></div>`
+    : `<div class="synccursor"></div>`;
+  return `<div class="chart">
+      <div class="labels">${labels}</div>
+      <div class="plot" ${isMain?'id="plot"':''}>${gridHtml(t)}<div class="tracks">${tracks}</div>${cur}</div>
     </div>`;
+}
+
+function renderTimeline(t){
+  SCALE=makeScale(t.window);
+  const root=t.entities.find(e=>e.kind==='root')||t.entities[0];
+  const exp=t.entities.filter(e=>e.kind!=='root'&&expanded.has(e.number))
+    .map(e=>`<div class="expansion"><div class="exp-head">Owners of ${e.name}</div>${renderEntityChart(t,e,false)}</div>`).join("");
+  document.getElementById("pane").innerHTML=`
+    <div class="drag-hint"><span aria-hidden="true">↔</span><div>Drag the black cursor across the timeline to watch the chain — and the ultimate owner — change through time. Use <b>Explore ownership</b> on any company to walk further up the chain.</div></div>
+    ${renderEntityChart(t,root,true)}
+    <div id="expansions">${exp}</div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--entity)"></i>UK company (walk up)</span>
+      <span><i class="sw" style="background:var(--person)"></i>person</span>
+      <span><i class="sw" style="background:var(--foreign)"></i>foreign entity</span>
+      <span><i class="sw" style="background:var(--unresolved)"></i>unresolved UK co.</span>
+      <span><i class="sw" style="background:var(--gap-bg);border:1px solid #f0c98a"></i>register gap</span>
+      <span><i class="sw" style="background:var(--ink);transform:rotate(45deg)"></i>PSC filing</span>
+    </div>
+    <div class="side" id="side"></div>`;
+  document.querySelectorAll("[data-explore]").forEach(b=>b.onclick=()=>{
+    const n=b.getAttribute("data-explore");
+    expanded.has(n)?expanded.delete(n):expanded.add(n);
+    renderTimeline(t);
+  });
   setupCursor(t);
 }
 
-/* ---------- date cursor → resolved chain path ---------- */
+/* ---------- date cursor → resolved chain path (drives all charts) ---------- */
 function setupCursor(t){
   const plot=document.getElementById("plot"), cursor=document.getElementById("cursor"), flag=document.getElementById("cflag");
-  let frac=1;
   const dateAt=f=>new Date(SCALE.a+f*(SCALE.b-SCALE.a));
-  function update(){ cursor.style.left=(frac*100)+"%"; const d=dateAt(frac); flag.textContent=fmt(d); renderPath(t,d); }
-  function fromX(x){ const r=plot.getBoundingClientRect(); frac=Math.min(1,Math.max(0,(x-r.left)/r.width)); update(); }
+  function update(){
+    cursor.style.left=(cursorFrac*100)+"%";
+    document.querySelectorAll(".synccursor").forEach(s=>s.style.left=(cursorFrac*100)+"%");
+    const d=dateAt(cursorFrac); flag.textContent=fmt(d); renderPath(t,d);
+  }
+  function fromX(el,x){ const r=el.getBoundingClientRect(); cursorFrac=Math.min(1,Math.max(0,(x-r.left)/r.width)); update(); }
   let drag=false;
   cursor.addEventListener("pointerdown",e=>{drag=true;cursor.setPointerCapture(e.pointerId);e.preventDefault();});
-  cursor.addEventListener("pointermove",e=>{if(drag)fromX(e.clientX);});
+  cursor.addEventListener("pointermove",e=>{if(drag)fromX(plot,e.clientX);});
   cursor.addEventListener("pointerup",()=>drag=false);
-  plot.addEventListener("pointerdown",e=>{if(e.target.classList.contains("tick")||e.target.closest(".cursor"))return;fromX(e.clientX);});
+  document.querySelectorAll(".plot").forEach(p=>p.addEventListener("pointerdown",e=>{
+    if(e.target.classList.contains("tick")||e.target.closest(".cursor"))return;
+    fromX(p,e.clientX);
+  }));
   update();
 }
 
@@ -350,8 +388,7 @@ function renderNode(n){
 function renderPath(t,d){
   const tree=pathTree(t,d);
   document.getElementById("side").innerHTML=
-    `<h3>Ownership chain</h3><div class="date">as it stood on ${fmt(d)}</div>${renderNode(tree)}
-     <div class="hint">Drag the black cursor across the timeline to watch the whole chain — and the ultimate owner — change through time.</div>`;
+    `<h3>Ownership chain</h3><div class="date">as it stood on ${fmt(d)}</div>${renderNode(tree)}`;
 }
 
 /* ---------- BODS ---------- */
