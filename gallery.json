@@ -1,0 +1,45 @@
+{
+  "title": "Who owned it, and when",
+  "subtitle": "Five years of beneficial-ownership change for UK companies, reconstructed from Companies House PSC data and mapped to the Beneficial Ownership Data Standard (BODS v0.4).",
+  "companies": [
+    {
+      "number": "02536231",
+      "name": "Chelsea FC Holdings Limited",
+      "hook": "A sanctions-forced sale, and a holding company that existed for six weeks",
+      "blurb": "Roman Abramovich's Fordstam Limited controlled Chelsea for six years. After Abramovich was sanctioned in March 2022, the club passed through an interim vehicle — Blueco 22 Limited, a beneficial owner for just 43 days — before landing with the Boehly–Clearlake structure. The interim owner is invisible on the live register; only the history shows it.",
+      "annotations": {
+        "04784127": "Roman Abramovich's holding company",
+        "13949552": "Boehly / Clearlake acquisition vehicle",
+        "14213798": "Boehly / Clearlake Capital structure",
+        "14075518": "Clearlake & Boehly holding company"
+      }
+    },
+    {
+      "number": "02529667",
+      "name": "Newcastle United Limited",
+      "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium — and an early gap in the record",
+      "blurb": "When the PSC register began, Newcastle United filed a statement that it believed there was no registrable person — then withdrew it the same day. Mike Ashley's St James Holdings was recorded from 2017 until the October 2021 takeover by PZ Newco, the vehicle for the Saudi Public Investment Fund–led consortium.",
+      "annotations": {
+        "06254688": "Mike Ashley era",
+        "12388231": "Saudi PIF–led consortium",
+        "12415316": "PIF's UK investment vehicle"
+      }
+    },
+    {
+      "number": "00036624",
+      "name": "Everton Football Club Company, Limited",
+      "hook": "A named individual owner, resident offshore, replaced after eight years",
+      "blurb": "Unusually for a Premier League club, Everton's beneficial owner was a named individual: Farhad Moshiri, a British national resident in Monaco, recorded from 2016. Control passed to the Friedkin Group's Roundhouse Capital in December 2024, after the collapse of the proposed 777 Partners deal.",
+      "annotations": {
+        "15992615": "The Friedkin Group"
+      }
+    },
+    {
+      "number": "05819262",
+      "name": "Kemble Water Holdings Limited",
+      "hook": "The anti-timeline: the ultimate UK parent of Thames Water reports no owner at all",
+      "blurb": "The company everyone wants to identify the owner of has, in law, no timeline to show. Kemble Water Holdings — the ultimate UK parent of Thames Water — reports no registrable person: its consortium of pension and sovereign-wealth funds is deliberately fragmented so that no single party crosses the 25% threshold. The register's answer is a single, standing statement.",
+      "annotations": {}
+    }
+  ]
+}

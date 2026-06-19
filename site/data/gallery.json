@@ -1,0 +1,116 @@
+{
+  "title": "Who owned it, and when",
+  "subtitle": "Five years of beneficial-ownership change for UK companies, reconstructed from Companies House PSC data and mapped to the Beneficial Ownership Data Standard (BODS v0.4).",
+  "companies": [
+    {
+      "number": "02536231",
+      "name": "Chelsea FC Holdings Limited",
+      "hook": "A sanctions-forced sale, and a holding company that existed for six weeks",
+      "stats": {
+        "chain_depth": 2,
+        "entities": 5,
+        "people": 3,
+        "foreign": 0,
+        "gaps": 0,
+        "bods_statements": 29,
+        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+      },
+      "window": {
+        "start": "2016-04-06",
+        "end": "2026-06-19"
+      },
+      "ultimate_today": [
+        {
+          "name": "Mr Behdad Eghbali",
+          "kind": "person",
+          "jurisdiction": null
+        },
+        {
+          "name": "Mr Jose E. Feliciano",
+          "kind": "person",
+          "jurisdiction": null
+        },
+        {
+          "name": "Todd Lawrence Boehly",
+          "kind": "person",
+          "jurisdiction": null
+        }
+      ]
+    },
+    {
+      "number": "02529667",
+      "name": "Newcastle United Limited",
+      "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium \u2014 and an early gap in the record",
+      "stats": {
+        "chain_depth": 2,
+        "entities": 3,
+        "people": 0,
+        "foreign": 1,
+        "gaps": 0,
+        "bods_statements": 14,
+        "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+      },
+      "window": {
+        "start": "2016-07-31",
+        "end": "2026-06-19"
+      },
+      "ultimate_today": [
+        {
+          "name": "Public Investment Fund",
+          "kind": "foreign",
+          "jurisdiction": "Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "number": "00036624",
+      "name": "Everton Football Club Company, Limited",
+      "hook": "A named individual owner, resident offshore, replaced after eight years",
+      "stats": {
+        "chain_depth": 1,
+        "entities": 2,
+        "people": 1,
+        "foreign": 0,
+        "gaps": 0,
+        "bods_statements": 8,
+        "comparison": "Reaching the ultimate owner means walking 1 layer(s) up the chain through 2 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+      },
+      "window": {
+        "start": "2016-04-06",
+        "end": "2026-06-19"
+      },
+      "ultimate_today": [
+        {
+          "name": "Mr Thomas Dan Friedkin",
+          "kind": "person",
+          "jurisdiction": null
+        }
+      ]
+    },
+    {
+      "number": "05819262",
+      "name": "Kemble Water Holdings Limited",
+      "hook": "The anti-timeline: the ultimate UK parent of Thames Water reports no owner at all",
+      "stats": {
+        "chain_depth": 0,
+        "entities": 1,
+        "people": 0,
+        "foreign": 0,
+        "gaps": 1,
+        "bods_statements": 2,
+        "comparison": "Reaching the ultimate owner means walking 0 layer(s) up the chain through 1 company \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+      },
+      "window": {
+        "start": "2017-06-01",
+        "end": "2026-06-19"
+      },
+      "ultimate_today": [
+        {
+          "name": "No registrable person",
+          "kind": "gap",
+          "jurisdiction": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "company_number": "14075518",
+  "profile": { "company_number": "14075518", "company_name": "22 HOLDCO LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Behdad Eghbali",
+      "name_elements": { "title": "Mr", "forename": "Behdad", "surname": "Eghbali" },
+      "notified_on": "2023-06-30",
+      "date_of_birth": { "year": 1976, "month": 5 },
+      "nationality": "American", "country_of_residence": "United States",
+      "natures_of_control": ["ownership-of-shares-50-to-75-percent-as-firm", "voting-rights-50-to-75-percent-as-firm"],
+      "etag": "holdco-eghbali"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Jose E. Feliciano",
+      "name_elements": { "title": "Mr", "forename": "Jose", "middle_name": "E.", "surname": "Feliciano" },
+      "notified_on": "2023-06-30",
+      "date_of_birth": { "year": 1973, "month": 5 },
+      "nationality": "American", "country_of_residence": "United States",
+      "natures_of_control": ["ownership-of-shares-50-to-75-percent-as-firm", "voting-rights-50-to-75-percent-as-firm"],
+      "etag": "holdco-feliciano"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Todd Lawrence Boehly",
+      "name_elements": { "forename": "Todd", "middle_name": "Lawrence", "surname": "Boehly" },
+      "notified_on": "2022-05-25",
+      "date_of_birth": { "year": 1973, "month": 9 },
+      "nationality": "American", "country_of_residence": "United States",
+      "natures_of_control": ["significant-influence-or-control-as-firm"],
+      "etag": "holdco-boehly-active"
+    },
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Blueco 22 Investor Holdings Limited",
+      "notified_on": "2022-05-12", "ceased_on": "2022-05-25",
+      "natures_of_control": ["ownership-of-shares-25-to-50-percent", "voting-rights-25-to-50-percent"],
+      "identification": { "registration_number": "14075320", "country_registered": "England" },
+      "etag": "holdco-investorholdings"
+    },
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Blues Investment Midco Limited",
+      "notified_on": "2022-05-06", "ceased_on": "2023-06-30",
+      "natures_of_control": ["ownership-of-shares-50-to-75-percent", "voting-rights-50-to-75-percent"],
+      "identification": { "registration_number": "14091439", "country_registered": "England" },
+      "etag": "holdco-bluesmidco"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Todd Lawrence Boehly",
+      "name_elements": { "forename": "Todd", "middle_name": "Lawrence", "surname": "Boehly" },
+      "notified_on": "2022-04-28", "ceased_on": "2022-05-12",
+      "date_of_birth": { "year": 1973, "month": 9 },
+      "nationality": "American", "country_of_residence": "United States",
+      "natures_of_control": ["ownership-of-shares-25-to-50-percent", "voting-rights-25-to-50-percent"],
+      "etag": "holdco-boehly-ceased"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19. Clearlake Capital principals Eghbali & Feliciano and Todd Boehly are the ultimate named beneficial owners of the Chelsea acquisition structure."
+}

@@ -1,0 +1,519 @@
+{
+  "company": {
+    "number": "00036624",
+    "name": "EVERTON FOOTBALL CLUB COMPANY, LIMITED",
+    "display_name": "Everton Football Club Company, Limited",
+    "hook": "A named individual owner, resident offshore, replaced after eight years",
+    "blurb": "Unusually for a Premier League club, Everton's beneficial owner was a named individual: Farhad Moshiri, a British national resident in Monaco, recorded from 2016. Control passed to the Friedkin Group's Roundhouse Capital in December 2024, after the collapse of the proposed 777 Partners deal.",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00036624/persons-with-significant-control"
+  },
+  "window": {
+    "start": "2016-04-06",
+    "end": "2026-06-19"
+  },
+  "root": "00036624",
+  "entities": [
+    {
+      "number": "00036624",
+      "name": "EVERTON FOOTBALL CLUB COMPANY, LIMITED",
+      "level": 0,
+      "kind": "root",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/00036624/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Roundhouse Capital Holdings Limited",
+          "owner_kind": "entity",
+          "owner_number": "15992615",
+          "owner_id": "15992615",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "The Friedkin Group",
+          "start": "2024-12-18",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2024-12-18",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Ardavan Farhad Moshiri",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:ardavan farhad moshiri",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1955-05",
+            "nationality": "British",
+            "residence": "Monaco"
+          },
+          "subtitle": "",
+          "start": "2016-04-06",
+          "end": "2024-12-18",
+          "active": false,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2016-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2024-12-18",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "15992615",
+      "name": "ROUNDHOUSE CAPITAL HOLDINGS LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/15992615/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Mr Thomas Dan Friedkin",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:mr thomas dan friedkin",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1965-02",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2024-10-02",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2024-10-02",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    }
+  ],
+  "filings": [],
+  "ultimate_today": [
+    {
+      "name": "Mr Thomas Dan Friedkin",
+      "kind": "person",
+      "jurisdiction": null
+    }
+  ],
+  "stats": {
+    "chain_depth": 1,
+    "entities": 2,
+    "people": 1,
+    "foreign": 0,
+    "gaps": 0,
+    "bods_statements": 8,
+    "comparison": "Reaching the ultimate owner means walking 1 layer(s) up the chain through 2 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+  },
+  "bods": {
+    "statements": [
+      {
+        "statementId": "opencheck-15c3110651f077afccf470a2",
+        "recordId": "opencheck-15c3110651f077afccf470a2",
+        "declarationSubject": "opencheck-15c3110651f077afccf470a2",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "EVERTON FOOTBALL CLUB COMPANY, LIMITED",
+          "identifiers": [
+            {
+              "id": "00036624",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          },
+          "foundingDate": "1892-07-12"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
+        }
+      },
+      {
+        "statementId": "opencheck-82bac06ce6610c96c4128e57",
+        "recordId": "opencheck-82bac06ce6610c96c4128e57",
+        "declarationSubject": "opencheck-82bac06ce6610c96c4128e57",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Roundhouse Capital Holdings Limited",
+          "identifiers": [
+            {
+              "id": "15992615",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England And Wales",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
+        }
+      },
+      {
+        "statementId": "opencheck-2f7e5817b3e16c649019174f",
+        "recordId": "opencheck-751b12b931b0682c65c2a12c",
+        "declarationSubject": "opencheck-15c3110651f077afccf470a2",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2024-12-18",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-15c3110651f077afccf470a2",
+          "interestedParty": "opencheck-82bac06ce6610c96c4128e57",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2024-12-18"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2024-12-18"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2024-12-18"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
+        }
+      },
+      {
+        "statementId": "opencheck-c71a0ef28b681f574e410224",
+        "recordId": "opencheck-c71a0ef28b681f574e410224",
+        "declarationSubject": "opencheck-c71a0ef28b681f574e410224",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Ardavan Farhad Moshiri"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "British"
+            }
+          ],
+          "birthDate": "1955-05"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
+        }
+      },
+      {
+        "statementId": "opencheck-3cf4b093201242bbe0fdd6d9",
+        "recordId": "opencheck-f214cb55e8b905e92ebb0672",
+        "declarationSubject": "opencheck-15c3110651f077afccf470a2",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2024-12-18",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-15c3110651f077afccf470a2",
+          "interestedParty": "opencheck-c71a0ef28b681f574e410224",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2024-12-18",
+              "startDate": "2016-04-06"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2024-12-18",
+              "startDate": "2016-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00036624"
+        }
+      },
+      {
+        "statementId": "opencheck-ad4062dc5091c30ec07a93ee",
+        "recordId": "opencheck-ad4062dc5091c30ec07a93ee",
+        "declarationSubject": "opencheck-ad4062dc5091c30ec07a93ee",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "ROUNDHOUSE CAPITAL HOLDINGS LIMITED",
+          "identifiers": [
+            {
+              "id": "15992615",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
+        }
+      },
+      {
+        "statementId": "opencheck-b2701d8f543192ffd5a0b973",
+        "recordId": "opencheck-b2701d8f543192ffd5a0b973",
+        "declarationSubject": "opencheck-b2701d8f543192ffd5a0b973",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Mr Thomas Dan Friedkin"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1965-02"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
+        }
+      },
+      {
+        "statementId": "opencheck-327b67903f80c8359aab25ea",
+        "recordId": "opencheck-0f50c58adb85980b667b5b4e",
+        "declarationSubject": "opencheck-ad4062dc5091c30ec07a93ee",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2024-10-02",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-ad4062dc5091c30ec07a93ee",
+          "interestedParty": "opencheck-b2701d8f543192ffd5a0b973",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2024-10-02"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2024-10-02"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2024-10-02"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15992615"
+        }
+      }
+    ],
+    "statement_count": 8
+  }
+}

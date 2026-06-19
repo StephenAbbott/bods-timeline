@@ -1,0 +1,7 @@
+# Runtime dependency for building the timeline data.
+#
+# OpenCheck's map_companies_house() (borrowed from a sibling checkout of the
+# opencheck repo) uses pycountry to resolve ISO country codes. That is the only
+# third-party package this tool needs — it feeds plain dicts to the mapper, so
+# pydantic and the rest of OpenCheck's stack are NOT required.
+pycountry

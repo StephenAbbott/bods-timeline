@@ -1,0 +1,20 @@
+{
+  "company_number": "04784127",
+  "profile": { "company_number": "04784127", "company_name": "FORDSTAM LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Mr Roman Abramovich",
+      "name_elements": { "title": "Mr", "forename": "Roman", "surname": "Abramovich" },
+      "notified_on": "2016-04-06",
+      "date_of_birth": { "year": 1966, "month": 10 },
+      "nationality": "Russian",
+      "country_of_residence": "Russia",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent"],
+      "etag": "fordstam-abramovich"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19."
+}

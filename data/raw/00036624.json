@@ -1,0 +1,49 @@
+{
+  "company_number": "00036624",
+  "profile": {
+    "company_number": "00036624",
+    "company_name": "EVERTON FOOTBALL CLUB COMPANY, LIMITED",
+    "type": "ltd",
+    "date_of_creation": "1892-07-12",
+    "company_status": "active"
+  },
+  "pscs": {
+    "items": [
+      {
+        "kind": "corporate-entity-person-with-significant-control",
+        "name": "Roundhouse Capital Holdings Limited",
+        "notified_on": "2024-12-18",
+        "natures_of_control": [
+          "ownership-of-shares-75-to-100-percent",
+          "voting-rights-75-to-100-percent",
+          "right-to-appoint-and-remove-directors"
+        ],
+        "identification": {
+          "registration_number": "15992615",
+          "country_registered": "England And Wales"
+        },
+        "etag": "efc-roundhouse"
+      },
+      {
+        "kind": "individual-person-with-significant-control",
+        "name": "Ardavan Farhad Moshiri",
+        "name_elements": { "forename": "Ardavan", "middle_name": "Farhad", "surname": "Moshiri" },
+        "notified_on": "2016-04-06",
+        "ceased_on": "2024-12-18",
+        "date_of_birth": { "year": 1955, "month": 5 },
+        "nationality": "British",
+        "country_of_residence": "Monaco",
+        "natures_of_control": [
+          "ownership-of-shares-75-to-100-percent",
+          "voting-rights-75-to-100-percent"
+        ],
+        "etag": "efc-moshiri"
+      }
+    ]
+  },
+  "psc_statements": { "items": [] },
+  "officers": {},
+  "related_companies": {},
+  "filings": [],
+  "_provenance": "PSC records transcribed from the public Companies House register, 2026-06-19."
+}

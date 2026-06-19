@@ -1,0 +1,1806 @@
+{
+  "company": {
+    "number": "02536231",
+    "name": "CHELSEA FC HOLDINGS LIMITED",
+    "display_name": "Chelsea FC Holdings Limited",
+    "hook": "A sanctions-forced sale, and a holding company that existed for six weeks",
+    "blurb": "Roman Abramovich's Fordstam Limited controlled Chelsea for six years. After Abramovich was sanctioned in March 2022, the club passed through an interim vehicle \u2014 Blueco 22 Limited, a beneficial owner for just 43 days \u2014 before landing with the Boehly\u2013Clearlake structure. The interim owner is invisible on the live register; only the history shows it.",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02536231/persons-with-significant-control"
+  },
+  "window": {
+    "start": "2016-04-06",
+    "end": "2026-06-19"
+  },
+  "root": "02536231",
+  "entities": [
+    {
+      "number": "02536231",
+      "name": "CHELSEA FC HOLDINGS LIMITED",
+      "level": 0,
+      "kind": "root",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02536231/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Blueco 22 Midco Limited",
+          "owner_kind": "entity",
+          "owner_number": "14213798",
+          "owner_id": "14213798",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Boehly / Clearlake Capital structure",
+          "start": "2022-07-12",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2022-07-12",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Blueco 22 Limited",
+          "owner_kind": "entity",
+          "owner_number": "13949552",
+          "owner_id": "13949552",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Boehly / Clearlake acquisition vehicle",
+          "start": "2022-05-30",
+          "end": "2022-07-12",
+          "active": false,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2022-05-30",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-07-12",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Fordstam Limited",
+          "owner_kind": "entity",
+          "owner_number": "04784127",
+          "owner_id": "04784127",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Roman Abramovich's holding company",
+          "start": "2016-04-06",
+          "end": "2022-05-30",
+          "active": false,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2016-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-05-30",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "14213798",
+      "name": "BLUECO 22 MIDCO LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14213798/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Blueco 22 Limited",
+          "owner_kind": "entity",
+          "owner_number": "13949552",
+          "owner_id": "13949552",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Boehly / Clearlake acquisition vehicle",
+          "start": "2022-07-04",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2022-07-04",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "13949552",
+      "name": "BLUECO 22 LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/13949552/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "22 Holdco Limited",
+          "owner_kind": "entity",
+          "owner_number": "14075518",
+          "owner_id": "14075518",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Clearlake & Boehly holding company",
+          "start": "2022-04-29",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2022-04-29",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Todd Lawrence Boehly",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:todd lawrence boehly",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1973-09",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2022-04-27",
+          "end": "2022-04-29",
+          "active": false,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2022-04-27",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-04-29",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Jonathan Goldstein",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:jonathan goldstein",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1966-03",
+            "nationality": "British",
+            "residence": "United Kingdom"
+          },
+          "subtitle": "",
+          "start": "2022-03-02",
+          "end": "2022-04-27",
+          "active": false,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2022-03-02",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-04-27",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "04784127",
+      "name": "FORDSTAM LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/04784127/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Mr Roman Abramovich",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:mr roman abramovich",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1966-10",
+            "nationality": "Russian",
+            "residence": "Russia"
+          },
+          "subtitle": "",
+          "start": "2016-04-06",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2016-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "14075518",
+      "name": "22 HOLDCO LIMITED",
+      "level": 2,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/14075518/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Mr Behdad Eghbali",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:mr behdad eghbali",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1976-05",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2023-06-30",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 50\u201375%",
+            "Voting: 50\u201375%"
+          ],
+          "events": [
+            {
+              "date": "2023-06-30",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Mr Jose E. Feliciano",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:mr jose e. feliciano",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1973-05",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2023-06-30",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 50\u201375%",
+            "Voting: 50\u201375%"
+          ],
+          "events": [
+            {
+              "date": "2023-06-30",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Todd Lawrence Boehly",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:todd lawrence boehly",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1973-09",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2022-05-25",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Significant influence/control"
+          ],
+          "events": [
+            {
+              "date": "2022-05-25",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Blueco 22 Investor Holdings Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "14075320",
+          "owner_id": "14075320",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "",
+          "start": "2022-05-12",
+          "end": "2022-05-25",
+          "active": false,
+          "natures": [
+            "Shares: 25\u201350%",
+            "Voting: 25\u201350%"
+          ],
+          "events": [
+            {
+              "date": "2022-05-12",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-05-25",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Blues Investment Midco Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "14091439",
+          "owner_id": "14091439",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "",
+          "start": "2022-05-06",
+          "end": "2023-06-30",
+          "active": false,
+          "natures": [
+            "Shares: 50\u201375%",
+            "Voting: 50\u201375%"
+          ],
+          "events": [
+            {
+              "date": "2022-05-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2023-06-30",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Todd Lawrence Boehly",
+          "owner_kind": "person",
+          "owner_number": null,
+          "owner_id": "person:todd lawrence boehly",
+          "owner_jurisdiction": null,
+          "person": {
+            "dob": "1973-09",
+            "nationality": "American",
+            "residence": "United States"
+          },
+          "subtitle": "",
+          "start": "2022-04-28",
+          "end": "2022-05-12",
+          "active": false,
+          "natures": [
+            "Shares: 25\u201350%",
+            "Voting: 25\u201350%"
+          ],
+          "events": [
+            {
+              "date": "2022-04-28",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2022-05-12",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    }
+  ],
+  "filings": [
+    {
+      "date": "2022-09-05",
+      "type": "PSC02",
+      "description": "Notification of Blueco 22 Midco Limited as a PSC on 12 July 2022",
+      "doc_url": "https://find-and-update.company-information.service.gov.uk/company/02536231/filing-history/MzM1MDgwOTIxN2FkaXF6a2N4/document?format=pdf&download=0"
+    },
+    {
+      "date": "2022-09-05",
+      "type": "PSC07",
+      "description": "Cessation of Blueco 22 Limited as a PSC on 12 July 2022",
+      "doc_url": "https://find-and-update.company-information.service.gov.uk/company/02536231/filing-history/MzM1MDgwOTA3OWFkaXF6a2N4/document?format=pdf&download=0"
+    },
+    {
+      "date": "2023-04-12",
+      "type": "PSC05",
+      "description": "Change of details for Blueco 22 Midco Limited as a PSC",
+      "doc_url": "https://find-and-update.company-information.service.gov.uk/company/02536231/filing-history/MzM3NjAwNTkzMGFkaXF6a2N4/document?format=pdf&download=0"
+    }
+  ],
+  "ultimate_today": [
+    {
+      "name": "Mr Behdad Eghbali",
+      "kind": "person",
+      "jurisdiction": null
+    },
+    {
+      "name": "Mr Jose E. Feliciano",
+      "kind": "person",
+      "jurisdiction": null
+    },
+    {
+      "name": "Todd Lawrence Boehly",
+      "kind": "person",
+      "jurisdiction": null
+    }
+  ],
+  "stats": {
+    "chain_depth": 2,
+    "entities": 5,
+    "people": 3,
+    "foreign": 0,
+    "gaps": 0,
+    "bods_statements": 29,
+    "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 5 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+  },
+  "bods": {
+    "statements": [
+      {
+        "statementId": "opencheck-50d5a5f44b4b645b7c217073",
+        "recordId": "opencheck-50d5a5f44b4b645b7c217073",
+        "declarationSubject": "opencheck-50d5a5f44b4b645b7c217073",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "CHELSEA FC HOLDINGS LIMITED",
+          "identifiers": [
+            {
+              "id": "02536231",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          },
+          "foundingDate": "1990-09-12"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-a84584291e27141ac0f8e65b",
+        "recordId": "opencheck-a84584291e27141ac0f8e65b",
+        "declarationSubject": "opencheck-a84584291e27141ac0f8e65b",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Blueco 22 Midco Limited",
+          "identifiers": [
+            {
+              "id": "14213798",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-d090de2afcb4c60afd9df21e",
+        "recordId": "opencheck-0c573e1b5f97e4febcfa228b",
+        "declarationSubject": "opencheck-50d5a5f44b4b645b7c217073",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-07-12",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-50d5a5f44b4b645b7c217073",
+          "interestedParty": "opencheck-a84584291e27141ac0f8e65b",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-07-12"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-07-12"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2022-07-12"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-38aaceed71efb715b30bff16",
+        "recordId": "opencheck-38aaceed71efb715b30bff16",
+        "declarationSubject": "opencheck-38aaceed71efb715b30bff16",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Blueco 22 Limited",
+          "identifiers": [
+            {
+              "id": "13949552",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-221534b97e6796bf112f5a72",
+        "recordId": "opencheck-149768f7cfab036556c11c0e",
+        "declarationSubject": "opencheck-50d5a5f44b4b645b7c217073",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-07-12",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-50d5a5f44b4b645b7c217073",
+          "interestedParty": "opencheck-38aaceed71efb715b30bff16",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2022-07-12",
+              "startDate": "2022-07-04"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-ba31d721aaa1334d2570c47c",
+        "recordId": "opencheck-ba31d721aaa1334d2570c47c",
+        "declarationSubject": "opencheck-ba31d721aaa1334d2570c47c",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Fordstam Limited",
+          "identifiers": [
+            {
+              "id": "04784127",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-b81ead794d6d85c26b918732",
+        "recordId": "opencheck-02a749f5f9ace24ab9dfc9d9",
+        "declarationSubject": "opencheck-50d5a5f44b4b645b7c217073",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-05-30",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-50d5a5f44b4b645b7c217073",
+          "interestedParty": "opencheck-ba31d721aaa1334d2570c47c",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2022-05-30",
+              "startDate": "2016-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02536231"
+        }
+      },
+      {
+        "statementId": "opencheck-fb0d48926b190fe75b86444e",
+        "recordId": "opencheck-047c959cf023b9a6b24a0a52",
+        "declarationSubject": "opencheck-a84584291e27141ac0f8e65b",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-07-04",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-a84584291e27141ac0f8e65b",
+          "interestedParty": "opencheck-38aaceed71efb715b30bff16",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-07-04"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-07-04"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2022-07-04"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14213798"
+        }
+      },
+      {
+        "statementId": "opencheck-1e1dfab62ac2cc21499e23a4",
+        "recordId": "opencheck-1e1dfab62ac2cc21499e23a4",
+        "declarationSubject": "opencheck-1e1dfab62ac2cc21499e23a4",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "22 Holdco Limited",
+          "identifiers": [
+            {
+              "id": "14075518",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England And Wales",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-3313c7a4e6c825b03146b466",
+        "recordId": "opencheck-2ec6b5053547065d5e573998",
+        "declarationSubject": "opencheck-38aaceed71efb715b30bff16",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-04-29",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-38aaceed71efb715b30bff16",
+          "interestedParty": "opencheck-1e1dfab62ac2cc21499e23a4",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-04-29"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2022-04-29"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2022-04-29"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-4f2db904a344e1dd5dbfa09c",
+        "recordId": "opencheck-4f2db904a344e1dd5dbfa09c",
+        "declarationSubject": "opencheck-4f2db904a344e1dd5dbfa09c",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Todd Lawrence Boehly"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1973-09"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-524d72b429e82c05784ce517",
+        "recordId": "opencheck-ff3328f8aaf77e73de0c1def",
+        "declarationSubject": "opencheck-38aaceed71efb715b30bff16",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-04-29",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-38aaceed71efb715b30bff16",
+          "interestedParty": "opencheck-4f2db904a344e1dd5dbfa09c",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2022-04-29",
+              "startDate": "2022-04-28"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-b6e4ca51adda9e77d6bfad4a",
+        "recordId": "opencheck-b6e4ca51adda9e77d6bfad4a",
+        "declarationSubject": "opencheck-b6e4ca51adda9e77d6bfad4a",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Jonathan Goldstein"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "British"
+            }
+          ],
+          "birthDate": "1966-03"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-a37f2e6f550daf12b82ecb93",
+        "recordId": "opencheck-42eba2312459c16f38024608",
+        "declarationSubject": "opencheck-38aaceed71efb715b30bff16",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-04-27",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-38aaceed71efb715b30bff16",
+          "interestedParty": "opencheck-b6e4ca51adda9e77d6bfad4a",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2022-04-27",
+              "startDate": "2022-03-02"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2022-04-27",
+              "startDate": "2022-03-02"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/13949552"
+        }
+      },
+      {
+        "statementId": "opencheck-5e8c388b40311a20a0db04a8",
+        "recordId": "opencheck-5e8c388b40311a20a0db04a8",
+        "declarationSubject": "opencheck-5e8c388b40311a20a0db04a8",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Mr Roman Abramovich"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "Russian"
+            }
+          ],
+          "birthDate": "1966-10"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/04784127"
+        }
+      },
+      {
+        "statementId": "opencheck-432d7f1faa87d9cce296d6e5",
+        "recordId": "opencheck-6686ce1ae80ac88c5e5f4f08",
+        "declarationSubject": "opencheck-ba31d721aaa1334d2570c47c",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2016-04-06",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-ba31d721aaa1334d2570c47c",
+          "interestedParty": "opencheck-5e8c388b40311a20a0db04a8",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2016-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/04784127"
+        }
+      },
+      {
+        "statementId": "opencheck-b6c03fe096682961e8a616c4",
+        "recordId": "opencheck-b6c03fe096682961e8a616c4",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "22 HOLDCO LIMITED",
+          "identifiers": [
+            {
+              "id": "14075518",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-5d34491f3ab016f62eaccd2c",
+        "recordId": "opencheck-5d34491f3ab016f62eaccd2c",
+        "declarationSubject": "opencheck-5d34491f3ab016f62eaccd2c",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Mr Behdad Eghbali"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1976-05"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-3774dc345c39e5dfdb96ace7",
+        "recordId": "opencheck-60a05e7697e6ec8c018cfd30",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2023-06-30",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-5d34491f3ab016f62eaccd2c",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 More than 50% but less than 75% as a member of a firm",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "startDate": "2023-06-30"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - More than 50% but less than 75% as a member of a firm",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "startDate": "2023-06-30"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-8d8d334b6d46ec368c9d97cd",
+        "recordId": "opencheck-8d8d334b6d46ec368c9d97cd",
+        "declarationSubject": "opencheck-8d8d334b6d46ec368c9d97cd",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Mr Jose E. Feliciano"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1973-05"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-e1e181ce99341a7267c6a21d",
+        "recordId": "opencheck-3a672ce1504a6d0b397a91e5",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2023-06-30",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-8d8d334b6d46ec368c9d97cd",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 More than 50% but less than 75% as a member of a firm",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "startDate": "2023-06-30"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - More than 50% but less than 75% as a member of a firm",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "startDate": "2023-06-30"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-b0aa73babe17a64faf0c7aff",
+        "recordId": "opencheck-b0aa73babe17a64faf0c7aff",
+        "declarationSubject": "opencheck-b0aa73babe17a64faf0c7aff",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Todd Lawrence Boehly"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1973-09"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-8e7af6fbdaa123b1098d7385",
+        "recordId": "opencheck-d4086fbe172ff02cba029d19",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-05-25",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-b0aa73babe17a64faf0c7aff",
+          "interests": [
+            {
+              "type": "otherInfluenceOrControl",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Has significant influence or control as a member of a firm",
+              "startDate": "2022-04-28"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-ad3c95f10195a728494029ee",
+        "recordId": "opencheck-ad3c95f10195a728494029ee",
+        "declarationSubject": "opencheck-ad3c95f10195a728494029ee",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Blueco 22 Investor Holdings Limited",
+          "identifiers": [
+            {
+              "id": "14075320",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-928cacf8450ca07ad3991ac3",
+        "recordId": "opencheck-7cd8fd1989cfb6743c80dc12",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-05-25",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-ad3c95f10195a728494029ee",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 More than 25% but not more than 50%",
+              "share": {
+                "exclusiveMinimum": 25,
+                "maximum": 50
+              },
+              "endDate": "2022-05-25",
+              "startDate": "2022-05-12"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - More than 25% but not more than 50%",
+              "share": {
+                "exclusiveMinimum": 25,
+                "maximum": 50
+              },
+              "endDate": "2022-05-25",
+              "startDate": "2022-05-12"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-9033e91dc5e05246159848b4",
+        "recordId": "opencheck-9033e91dc5e05246159848b4",
+        "declarationSubject": "opencheck-9033e91dc5e05246159848b4",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Blues Investment Midco Limited",
+          "identifiers": [
+            {
+              "id": "14091439",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-e3d67f664b6abd971192e656",
+        "recordId": "opencheck-4cec0caa768d0e3072f21725",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2023-06-30",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-9033e91dc5e05246159848b4",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 More than 50% but less than 75%",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "endDate": "2023-06-30",
+              "startDate": "2022-05-06"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - More than 50% but less than 75%",
+              "share": {
+                "exclusiveMinimum": 50,
+                "maximum": 75
+              },
+              "endDate": "2023-06-30",
+              "startDate": "2022-05-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-2c83eb41e63d408d8105cf0d",
+        "recordId": "opencheck-2c83eb41e63d408d8105cf0d",
+        "declarationSubject": "opencheck-2c83eb41e63d408d8105cf0d",
+        "recordType": "person",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "personType": "knownPerson",
+          "names": [
+            {
+              "type": "legal",
+              "fullName": "Todd Lawrence Boehly"
+            }
+          ],
+          "nationalities": [
+            {
+              "name": "American"
+            }
+          ],
+          "birthDate": "1973-09"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      },
+      {
+        "statementId": "opencheck-95a1d881736863ba32f06e44",
+        "recordId": "opencheck-f4158634610b66a5c1802850",
+        "declarationSubject": "opencheck-b6c03fe096682961e8a616c4",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2022-05-12",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-b6c03fe096682961e8a616c4",
+          "interestedParty": "opencheck-2c83eb41e63d408d8105cf0d",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of shares \u2013 More than 25% but not more than 50%",
+              "share": {
+                "exclusiveMinimum": 25,
+                "maximum": 50
+              },
+              "endDate": "2022-05-12",
+              "startDate": "2022-04-28"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": true,
+              "details": "Ownership of voting rights - More than 25% but not more than 50%",
+              "share": {
+                "exclusiveMinimum": 25,
+                "maximum": 50
+              },
+              "endDate": "2022-05-12",
+              "startDate": "2022-04-28"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/14075518"
+        }
+      }
+    ],
+    "statement_count": 29
+  }
+}

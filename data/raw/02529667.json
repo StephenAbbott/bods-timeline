@@ -1,0 +1,57 @@
+{
+  "company_number": "02529667",
+  "profile": {
+    "company_number": "02529667",
+    "company_name": "NEWCASTLE UNITED LIMITED",
+    "type": "ltd",
+    "date_of_creation": "1990-09-06",
+    "company_status": "active"
+  },
+  "pscs": {
+    "items": [
+      {
+        "kind": "corporate-entity-person-with-significant-control",
+        "name": "Pz Newco Limited",
+        "notified_on": "2021-10-07",
+        "natures_of_control": [
+          "ownership-of-shares-75-to-100-percent",
+          "voting-rights-75-to-100-percent",
+          "right-to-appoint-and-remove-directors"
+        ],
+        "identification": {
+          "registration_number": "12388231",
+          "country_registered": "England"
+        },
+        "etag": "nufc-pznewco"
+      },
+      {
+        "kind": "corporate-entity-person-with-significant-control",
+        "name": "St James Holdings Limited",
+        "notified_on": "2017-04-06",
+        "ceased_on": "2021-10-07",
+        "natures_of_control": [
+          "ownership-of-shares-75-to-100-percent"
+        ],
+        "identification": {
+          "registration_number": "06254688",
+          "country_registered": "England And Wales"
+        },
+        "etag": "nufc-stjames"
+      }
+    ]
+  },
+  "psc_statements": {
+    "items": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2016-07-31",
+        "ceased_on": "2016-07-31",
+        "etag": "nufc-stmt"
+      }
+    ]
+  },
+  "officers": {},
+  "related_companies": {},
+  "filings": [],
+  "_provenance": "PSC records and the withdrawn statement transcribed from the public Companies House register, 2026-06-19."
+}

@@ -1,0 +1,33 @@
+{
+  "company_number": "12388231",
+  "profile": { "company_number": "12388231", "company_name": "PZ NEWCO LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Ncuk Investment Limited",
+      "notified_on": "2020-04-08",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "identification": { "registration_number": "12415316", "country_registered": "England" },
+      "etag": "pznewco-ncuk"
+    },
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Jv1 Limited",
+      "notified_on": "2020-04-08", "ceased_on": "2020-04-08",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "identification": { "registration_number": "12419163", "country_registered": "England" },
+      "etag": "pznewco-jv1"
+    },
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Cantervale Limited",
+      "notified_on": "2020-01-06", "ceased_on": "2020-04-08",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "identification": { "registration_number": "11128634", "country_registered": "United Kingdom" },
+      "etag": "pznewco-cantervale"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19."
+}

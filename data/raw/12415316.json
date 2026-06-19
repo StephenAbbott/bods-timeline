@@ -1,0 +1,17 @@
+{
+  "company_number": "12415316",
+  "profile": { "company_number": "12415316", "company_name": "NCUK INVESTMENT LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "Public Investment Fund",
+      "notified_on": "2020-01-21",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "identification": { "legal_authority": "Saudi Arabia", "legal_form": "Corporation Sole", "country_registered": "Saudi Arabia", "place_registered": "Saudi Arabia" },
+      "etag": "ncuk-pif"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19. The Public Investment Fund is the sovereign wealth fund of Saudi Arabia; it has no UK registration number and is governed by Saudi law — the chain terminates at a foreign state entity."
+}

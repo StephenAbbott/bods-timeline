@@ -1,0 +1,893 @@
+{
+  "company": {
+    "number": "02529667",
+    "name": "NEWCASTLE UNITED LIMITED",
+    "display_name": "Newcastle United Limited",
+    "hook": "From Mike Ashley to a Saudi sovereign-wealth consortium \u2014 and an early gap in the record",
+    "blurb": "When the PSC register began, Newcastle United filed a statement that it believed there was no registrable person \u2014 then withdrew it the same day. Mike Ashley's St James Holdings was recorded from 2017 until the October 2021 takeover by PZ Newco, the vehicle for the Saudi Public Investment Fund\u2013led consortium.",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02529667/persons-with-significant-control"
+  },
+  "window": {
+    "start": "2016-07-31",
+    "end": "2026-06-19"
+  },
+  "root": "02529667",
+  "entities": [
+    {
+      "number": "02529667",
+      "name": "NEWCASTLE UNITED LIMITED",
+      "level": 0,
+      "kind": "root",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/02529667/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Pz Newco Limited",
+          "owner_kind": "entity",
+          "owner_number": "12388231",
+          "owner_id": "12388231",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Saudi PIF\u2013led consortium",
+          "start": "2021-10-07",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2021-10-07",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "St James Holdings Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "06254688",
+          "owner_id": "06254688",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "Mike Ashley era",
+          "start": "2017-04-06",
+          "end": "2021-10-07",
+          "active": false,
+          "natures": [
+            "Shares: 75%+"
+          ],
+          "events": [
+            {
+              "date": "2017-04-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2021-10-07",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "label": "No registrable person",
+          "code": "no-individual-or-entity-with-signficant-control",
+          "start": "2016-07-31",
+          "end": "2016-07-31",
+          "withdrawn": true,
+          "active": false
+        }
+      ]
+    },
+    {
+      "number": "12388231",
+      "name": "PZ NEWCO LIMITED",
+      "level": 1,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12388231/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Ncuk Investment Limited",
+          "owner_kind": "entity",
+          "owner_number": "12415316",
+          "owner_id": "12415316",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "PIF's UK investment vehicle",
+          "start": "2020-04-08",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2020-04-08",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Jv1 Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "12419163",
+          "owner_id": "12419163",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "",
+          "start": "2020-04-08",
+          "end": "2020-04-08",
+          "active": false,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2020-04-08",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2020-04-08",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        },
+        {
+          "owner_name": "Cantervale Limited",
+          "owner_kind": "unresolved",
+          "owner_number": "11128634",
+          "owner_id": "11128634",
+          "owner_jurisdiction": null,
+          "person": null,
+          "subtitle": "",
+          "start": "2020-01-06",
+          "end": "2020-04-08",
+          "active": false,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2020-01-06",
+              "type": "notified",
+              "label": "Notified as PSC"
+            },
+            {
+              "date": "2020-04-08",
+              "type": "ceased",
+              "label": "Ceased to be a PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "number": "12415316",
+      "name": "NCUK INVESTMENT LIMITED",
+      "level": 2,
+      "kind": "entity",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/12415316/persons-with-significant-control",
+      "lanes": [
+        {
+          "owner_name": "Public Investment Fund",
+          "owner_kind": "foreign",
+          "owner_number": null,
+          "owner_id": "foreign:public investment fund",
+          "owner_jurisdiction": "Saudi Arabia",
+          "person": null,
+          "subtitle": "",
+          "start": "2020-01-21",
+          "end": null,
+          "active": true,
+          "natures": [
+            "Shares: 75%+",
+            "Voting: 75%+",
+            "Appoints directors"
+          ],
+          "events": [
+            {
+              "date": "2020-01-21",
+              "type": "notified",
+              "label": "Notified as PSC"
+            }
+          ]
+        }
+      ],
+      "gaps": []
+    }
+  ],
+  "filings": [],
+  "ultimate_today": [
+    {
+      "name": "Public Investment Fund",
+      "kind": "foreign",
+      "jurisdiction": "Saudi Arabia"
+    }
+  ],
+  "stats": {
+    "chain_depth": 2,
+    "entities": 3,
+    "people": 0,
+    "foreign": 1,
+    "gaps": 0,
+    "bods_statements": 14,
+    "comparison": "Reaching the ultimate owner means walking 2 layer(s) up the chain through 3 companies \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+  },
+  "bods": {
+    "statements": [
+      {
+        "statementId": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "recordId": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "declarationSubject": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "NEWCASTLE UNITED LIMITED",
+          "identifiers": [
+            {
+              "id": "02529667",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          },
+          "foundingDate": "1990-09-06"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-f02408a139d9e546ae7d3378",
+        "recordId": "opencheck-f02408a139d9e546ae7d3378",
+        "declarationSubject": "opencheck-f02408a139d9e546ae7d3378",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Pz Newco Limited",
+          "identifiers": [
+            {
+              "id": "12388231",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-bdb0df27f1707ab2d89ba0a5",
+        "recordId": "opencheck-de07bd1860ccaf736dda311b",
+        "declarationSubject": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2021-10-07",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-6f9aa6a7ff866178b264b7c8",
+          "interestedParty": "opencheck-f02408a139d9e546ae7d3378",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2021-10-07"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2021-10-07"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2021-10-07"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-b0877c80ae128020f5a245da",
+        "recordId": "opencheck-b0877c80ae128020f5a245da",
+        "declarationSubject": "opencheck-b0877c80ae128020f5a245da",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "St James Holdings Limited",
+          "identifiers": [
+            {
+              "id": "06254688",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England And Wales",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-5651e5fa0fdde391c7c258c3",
+        "recordId": "opencheck-d761c120664390fcf2af6afd",
+        "declarationSubject": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2021-10-07",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-6f9aa6a7ff866178b264b7c8",
+          "interestedParty": "opencheck-b0877c80ae128020f5a245da",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2021-10-07",
+              "startDate": "2017-04-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-af8c9e7be31619b4a8710d63",
+        "recordId": "opencheck-ed64d1f91be3ed87fd8e0c47",
+        "declarationSubject": "opencheck-6f9aa6a7ff866178b264b7c8",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2016-07-31",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-6f9aa6a7ff866178b264b7c8",
+          "interestedParty": {
+            "reason": "noBeneficialOwners",
+            "description": "The company knows or has reasonable cause to believe that there is no registrable person or registrable relevant legal entity in relation to the company"
+          },
+          "interests": []
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02529667"
+        }
+      },
+      {
+        "statementId": "opencheck-2aa594eb24eded93830ecfb4",
+        "recordId": "opencheck-2aa594eb24eded93830ecfb4",
+        "declarationSubject": "opencheck-2aa594eb24eded93830ecfb4",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Ncuk Investment Limited",
+          "identifiers": [
+            {
+              "id": "12415316",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-d810f15639ffeb8dcaae8da8",
+        "recordId": "opencheck-300a0e4fd6ddf03fedcb5fa4",
+        "declarationSubject": "opencheck-f02408a139d9e546ae7d3378",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2020-04-08",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-f02408a139d9e546ae7d3378",
+          "interestedParty": "opencheck-2aa594eb24eded93830ecfb4",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2020-04-08"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2020-04-08"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2020-04-08"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-bf54f5148e79d82a1064a3b5",
+        "recordId": "opencheck-bf54f5148e79d82a1064a3b5",
+        "declarationSubject": "opencheck-bf54f5148e79d82a1064a3b5",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Jv1 Limited",
+          "identifiers": [
+            {
+              "id": "12419163",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "England",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-f7a1dec5bfa40620538ce4ba",
+        "recordId": "opencheck-bded5b4b316593050b429998",
+        "declarationSubject": "opencheck-f02408a139d9e546ae7d3378",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2020-04-08",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-f02408a139d9e546ae7d3378",
+          "interestedParty": "opencheck-bf54f5148e79d82a1064a3b5",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2020-04-08",
+              "startDate": "2020-04-08"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2020-04-08",
+              "startDate": "2020-04-08"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "endDate": "2020-04-08",
+              "startDate": "2020-04-08"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-44a58bdc4a59161be180ccd4",
+        "recordId": "opencheck-44a58bdc4a59161be180ccd4",
+        "declarationSubject": "opencheck-44a58bdc4a59161be180ccd4",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Cantervale Limited",
+          "identifiers": [
+            {
+              "id": "11128634",
+              "scheme": "GB-COH",
+              "schemeName": "UK Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-77bbbf56829d4807febe4191",
+        "recordId": "opencheck-65319dc1c88a18082f3ac0e2",
+        "declarationSubject": "opencheck-f02408a139d9e546ae7d3378",
+        "recordType": "relationship",
+        "recordStatus": "closed",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2020-04-08",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-f02408a139d9e546ae7d3378",
+          "interestedParty": "opencheck-44a58bdc4a59161be180ccd4",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2020-04-08",
+              "startDate": "2020-01-06"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "endDate": "2020-04-08",
+              "startDate": "2020-01-06"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "endDate": "2020-04-08",
+              "startDate": "2020-01-06"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12388231"
+        }
+      },
+      {
+        "statementId": "opencheck-9ccaf20b930868d7aa44bd95",
+        "recordId": "opencheck-9ccaf20b930868d7aa44bd95",
+        "declarationSubject": "opencheck-9ccaf20b930868d7aa44bd95",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity"
+          },
+          "name": "Public Investment Fund",
+          "identifiers": [],
+          "jurisdiction": {
+            "name": "Saudi Arabia",
+            "code": "SA"
+          }
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
+        }
+      },
+      {
+        "statementId": "opencheck-a7e06aea2270764778bc9d3b",
+        "recordId": "opencheck-955ab4baf14ffd9e64f45423",
+        "declarationSubject": "opencheck-2aa594eb24eded93830ecfb4",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2020-01-21",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-2aa594eb24eded93830ecfb4",
+          "interestedParty": "opencheck-9ccaf20b930868d7aa44bd95",
+          "interests": [
+            {
+              "type": "shareholding",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of shares \u2013 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2020-01-21"
+            },
+            {
+              "type": "votingRights",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Ownership of voting rights - 75% or more",
+              "share": {
+                "exclusiveMinimum": 75,
+                "maximum": 100
+              },
+              "startDate": "2020-01-21"
+            },
+            {
+              "type": "appointmentOfBoard",
+              "directOrIndirect": "direct",
+              "beneficialOwnershipOrControl": false,
+              "details": "Right to appoint or remove directors",
+              "startDate": "2020-01-21"
+            }
+          ]
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/12415316"
+        }
+      }
+    ],
+    "statement_count": 14
+  }
+}

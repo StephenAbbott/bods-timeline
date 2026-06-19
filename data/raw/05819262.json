@@ -1,0 +1,24 @@
+{
+  "company_number": "05819262",
+  "profile": {
+    "company_number": "05819262",
+    "company_name": "KEMBLE WATER HOLDINGS LIMITED",
+    "type": "ltd",
+    "date_of_creation": "2006-05-04",
+    "company_status": "active"
+  },
+  "pscs": { "items": [] },
+  "psc_statements": {
+    "items": [
+      {
+        "statement": "no-individual-or-entity-with-signficant-control",
+        "notified_on": "2017-06-01",
+        "etag": "kemble-stmt"
+      }
+    ]
+  },
+  "officers": {},
+  "related_companies": {},
+  "filings": [],
+  "_provenance": "PSC statement transcribed from the public Companies House register, 2026-06-19. Ultimate UK parent of Thames Water Utilities Ltd; reports no registrable PSC."
+}

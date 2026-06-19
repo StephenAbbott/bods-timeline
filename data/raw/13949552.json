@@ -1,0 +1,37 @@
+{
+  "company_number": "13949552",
+  "profile": { "company_number": "13949552", "company_name": "BLUECO 22 LIMITED", "type": "ltd", "company_status": "active" },
+  "pscs": { "items": [
+    {
+      "kind": "corporate-entity-person-with-significant-control",
+      "name": "22 Holdco Limited",
+      "notified_on": "2022-04-29",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent", "right-to-appoint-and-remove-directors"],
+      "identification": { "registration_number": "14075518", "country_registered": "England And Wales" },
+      "etag": "blueco22-22holdco"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Todd Lawrence Boehly",
+      "name_elements": { "forename": "Todd", "middle_name": "Lawrence", "surname": "Boehly" },
+      "notified_on": "2022-04-27", "ceased_on": "2022-04-29",
+      "date_of_birth": { "year": 1973, "month": 9 },
+      "nationality": "American", "country_of_residence": "United States",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent"],
+      "etag": "blueco22-boehly"
+    },
+    {
+      "kind": "individual-person-with-significant-control",
+      "name": "Jonathan Goldstein",
+      "name_elements": { "forename": "Jonathan", "surname": "Goldstein" },
+      "notified_on": "2022-03-02", "ceased_on": "2022-04-27",
+      "date_of_birth": { "year": 1966, "month": 3 },
+      "nationality": "British", "country_of_residence": "United Kingdom",
+      "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent"],
+      "etag": "blueco22-goldstein"
+    }
+  ] },
+  "psc_statements": { "items": [] },
+  "officers": {}, "related_companies": {}, "filings": [],
+  "_provenance": "Transcribed from the public Companies House register, 2026-06-19."
+}

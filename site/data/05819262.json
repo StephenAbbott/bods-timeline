@@ -1,0 +1,132 @@
+{
+  "company": {
+    "number": "05819262",
+    "name": "KEMBLE WATER HOLDINGS LIMITED",
+    "display_name": "Kemble Water Holdings Limited",
+    "hook": "The anti-timeline: the ultimate UK parent of Thames Water reports no owner at all",
+    "blurb": "The company everyone wants to identify the owner of has, in law, no timeline to show. Kemble Water Holdings \u2014 the ultimate UK parent of Thames Water \u2014 reports no registrable person: its consortium of pension and sovereign-wealth funds is deliberately fragmented so that no single party crosses the 25% threshold. The register's answer is a single, standing statement.",
+    "ch_url": "https://find-and-update.company-information.service.gov.uk/company/05819262/persons-with-significant-control"
+  },
+  "window": {
+    "start": "2017-06-01",
+    "end": "2026-06-19"
+  },
+  "root": "05819262",
+  "entities": [
+    {
+      "number": "05819262",
+      "name": "KEMBLE WATER HOLDINGS LIMITED",
+      "level": 0,
+      "kind": "root",
+      "ch_url": "https://find-and-update.company-information.service.gov.uk/company/05819262/persons-with-significant-control",
+      "lanes": [],
+      "gaps": [
+        {
+          "label": "No registrable person",
+          "code": "no-individual-or-entity-with-signficant-control",
+          "start": "2017-06-01",
+          "end": null,
+          "withdrawn": false,
+          "active": true
+        }
+      ]
+    }
+  ],
+  "filings": [],
+  "ultimate_today": [
+    {
+      "name": "No registrable person",
+      "kind": "gap",
+      "jurisdiction": null
+    }
+  ],
+  "stats": {
+    "chain_depth": 0,
+    "entities": 1,
+    "people": 0,
+    "foreign": 0,
+    "gaps": 1,
+    "bods_statements": 2,
+    "comparison": "Reaching the ultimate owner means walking 0 layer(s) up the chain through 1 company \u2014 each its own PSC page and filing history on Companies House. Here it is one timeline."
+  },
+  "bods": {
+    "statements": [
+      {
+        "statementId": "opencheck-72cd376023a33d80e0365d09",
+        "recordId": "opencheck-72cd376023a33d80e0365d09",
+        "declarationSubject": "opencheck-72cd376023a33d80e0365d09",
+        "recordType": "entity",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2026-06-19",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "entityType": {
+            "type": "registeredEntity",
+            "details": "Private limited company"
+          },
+          "name": "KEMBLE WATER HOLDINGS LIMITED",
+          "identifiers": [
+            {
+              "id": "05819262",
+              "scheme": "GB-COH",
+              "schemeName": "Companies House"
+            }
+          ],
+          "jurisdiction": {
+            "name": "United Kingdom",
+            "code": "GB"
+          },
+          "foundingDate": "2006-05-04"
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/05819262"
+        }
+      },
+      {
+        "statementId": "opencheck-9649343c22d28f542b63626b",
+        "recordId": "opencheck-24984661d8ed59caa6651241",
+        "declarationSubject": "opencheck-72cd376023a33d80e0365d09",
+        "recordType": "relationship",
+        "recordStatus": "new",
+        "statementDate": "2026-06-19",
+        "publicationDetails": {
+          "bodsVersion": "0.4",
+          "publicationDate": "2017-06-01",
+          "publisher": {
+            "name": "OpenCheck"
+          }
+        },
+        "recordDetails": {
+          "isComponent": false,
+          "subject": "opencheck-72cd376023a33d80e0365d09",
+          "interestedParty": {
+            "reason": "noBeneficialOwners",
+            "description": "The company knows or has reasonable cause to believe that there is no registrable person or registrable relevant legal entity in relation to the company"
+          },
+          "interests": []
+        },
+        "source": {
+          "type": [
+            "officialRegister"
+          ],
+          "description": "UK Companies House",
+          "retrievedAt": "2026-06-19T10:52:24Z",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/05819262"
+        }
+      }
+    ],
+    "statement_count": 2
+  }
+}
