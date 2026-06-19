@@ -5,5 +5,10 @@ __pycache__/
 .venv/
 venv/
 
+# Node (only used transiently for jsdom-based render checks; not a dependency)
+node_modules/
+package-lock.json
+package.json
+
 # OS
 .DS_Store

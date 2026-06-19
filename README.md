@@ -11,7 +11,8 @@ jurisdictions to keep **five years** of beneficial-ownership history. This tool
 shows what that history looks like — and, just as importantly, where it runs out.
 
 It also showcases the **temporal half of BODS** that almost no demo shows:
-`statementDate`, `replacesStatements`, and interest `startDate`/`endDate`.
+`statementDate`, the stable `recordId` + `recordStatus` (new/updated/closed)
+lifecycle, and interest `startDate`/`endDate`.
 
 ## What it shows
 
