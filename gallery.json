@@ -1,6 +1,6 @@
 {
   "title": "Who owned it, and when",
-  "subtitle": "Five years of beneficial-ownership change for UK companies, reconstructed from Companies House PSC data and mapped to the Beneficial Ownership Data Standard (BODS v0.4).",
+  "subtitle": "Five years of beneficial ownership changes for notable UK companies, reconstructed from Companies House PSC data and mapped to the Beneficial Ownership Data Standard (BODS v0.4).",
   "companies": [
     {
       "number": "02536231",
